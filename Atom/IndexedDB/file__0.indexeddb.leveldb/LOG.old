@@ -1,6 +1,0 @@
-2022/01/25-20:07:29.968 15564 Reusing MANIFEST /home/battos/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2022/01/25-20:07:29.968 15564 Recovering log #7
-2022/01/25-20:07:29.978 15564 Reusing old log /home/battos/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000007.log 
-2022/01/25-20:59:42.255 164c0 Level-0 table #12: started
-2022/01/25-20:59:42.294 164c0 Level-0 table #12: 1613240 bytes OK
-2022/01/25-20:59:42.302 164c0 Delete type=0 #7
