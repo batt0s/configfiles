@@ -1,0 +1,1561 @@
+[Info  - 2:31:19 PM] 2022/03/06 14:31:19 go env for /home/battos/Desktop/GoURLShrotener
+(root /home/battos/Desktop/GoURLShrotener)
+(go version go version go1.17.7 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOMODCACHE=/home/battos/go/pkg/mod
+GONOPROXY=
+GO111MODULE=
+GOMOD=/home/battos/Desktop/GoURLShrotener/go.mod
+GOFLAGS=
+GOPROXY=https://proxy.golang.org,direct
+GOSUMDB=sum.golang.org
+GOCACHE=/home/battos/.cache/go-build
+GOINSECURE=
+GONOSUMDB=
+GOPATH=/home/battos/go
+GOPRIVATE=
+GOROOT=/usr/lib/go
+
+
+[Info  - 2:31:20 PM] 2022/03/06 14:31:20 go/packages.Load
+	snapshot=0
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[builtin github.com/batt0s/goshort/...]
+	packages=3
+
+[Info  - 2:31:21 PM] 2022/03/06 14:31:21 falling back to safe trimming due to type errors: [/usr/lib/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/lib/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 2:31:21 PM] 2022/03/06 14:31:21 falling back to safe trimming due to type errors: [/usr/lib/go/src/os/user/cgo_lookup_unix.go:200:19: int not declared by package C /usr/lib/go/src/os/user/cgo_lookup_unix.go:203:16: bufferKind(C._SC_GETPW_R_SIZE_MAX) (value of type bufferKind) is not constant /usr/lib/go/src/os/user/cgo_lookup_unix.go:204:16: bufferKind(C._SC_GETGR_R_SIZE_MAX) (value of type bufferKind) is not constant] or still-missing identifiers: map[]
+	package="os/user"
+
+[Info  - 2:31:21 PM] 2022/03/06 14:31:21 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 2:31:21 PM] 2022/03/06 14:31:21 discovered missing identifiers: map[options:true]
+	package="golang.org/x/text/unicode/bidi"
+
+[Info  - 2:31:21 PM] 2022/03/06 14:31:21 discovered missing identifiers: map[matcher:true]
+	package="golang.org/x/text/language"
+
+[Info  - 2:31:21 PM] 2022/03/06 14:31:21 falling back to safe trimming due to type errors: [/home/battos/Desktop/GoURLShrotener/vendor/github.com/mattn/go-sqlite3/error.go:22:19: int not declared by package C /home/battos/Desktop/GoURLShrotener/vendor/github.com/mattn/go-sqlite3/sqlite3_context.go:38:22: sqlite3_context not declared by package C] or still-missing identifiers: map[]
+	package="github.com/mattn/go-sqlite3"
+
+[Info  - 2:31:21 PM] 2022/03/06 14:31:21 discovered missing identifiers: map[pguint32:true]
+	package="github.com/jackc/pgtype"
+
+[Info  - 2:31:22 PM] 2022/03/06 14:31:22 discovered missing identifiers: map[connector:true]
+	package="github.com/jackc/pgx/v4/stdlib"
+
+[Error - 2:37:23 PM] 2022/03/06 14:37:23 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:5: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:25 PM] 2022/03/06 14:37:25 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:5: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:26 PM] 2022/03/06 14:37:26 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:1: expected declaration, found fu
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:27 PM] 2022/03/06 14:37:27 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:1: expected declaration, found fun
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:27 PM] 2022/03/06 14:37:27 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:5: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:29 PM] 2022/03/06 14:37:29 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:5: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:31 PM] 2022/03/06 14:37:31 no signature help: cannot find an enclosing function
+	position={77 6}
+
+[Error - 2:37:31 PM] 2022/03/06 14:37:31 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:8: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:32 PM] 2022/03/06 14:37:32 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:12: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:33 PM] 2022/03/06 14:37:33 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:14: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:35 PM] 2022/03/06 14:37:35 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:22: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:35 PM] 2022/03/06 14:37:35 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:22: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:37 PM] 2022/03/06 14:37:37 no completions found: this is a definition of func (*Shortener).S()
+	position={77 23}
+
+[Error - 2:37:38 PM] 2022/03/06 14:37:38 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:27: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:39 PM] 2022/03/06 14:37:39 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:30: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:39 PM] 2022/03/06 14:37:39 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:37:41 PM] 2022/03/06 14:37:41 no completions found: this is a definition of func (*Shortener).C()
+	position={77 23}
+
+[Error - 2:37:41 PM] 2022/03/06 14:37:41 no completions found: this is a definition of func (*Shortener).Cust()
+	position={77 26}
+
+[Error - 2:37:41 PM] 2022/03/06 14:37:41 no completions found: this is a definition of func (*Shortener).Custo()
+	position={77 27}
+
+[Error - 2:37:42 PM] 2022/03/06 14:37:42 no completions found: this is a definition of func (*Shortener).Custom()
+	position={77 28}
+
+[Error - 2:37:42 PM] 2022/03/06 14:37:42 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:29: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:42 PM] 2022/03/06 14:37:42 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:37:42 PM] 2022/03/06 14:37:42 no completions found: this is a definition of func (*Shortener).CustomS()
+	position={77 29}
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:30: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 no completions found: this is a definition of func (*Shortener).CustomSh()
+	position={77 30}
+
+[Info  - 2:37:43 PM] 2022/03/06 14:37:43 background imports cache refresh starting
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 no completions found: this is a definition of func (*Shortener).CustomSho()
+	position={77 31}
+
+[Info  - 2:37:43 PM] 2022/03/06 14:37:43 background refresh finished after 3.558592ms
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 no completions found: this is a definition of func (*Shortener).CustomShor()
+	position={77 32}
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:33: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 no completions found: this is a definition of func (*Shortener).CustomShort()
+	position={77 33}
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 no completions found: this is a definition of func (*Shortener).CustomShorte()
+	position={77 34}
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 no completions found: this is a definition of func (*Shortener).CustomShorten()
+	position={77 35}
+
+[Error - 2:37:43 PM] 2022/03/06 14:37:43 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:36: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:44 PM] 2022/03/06 14:37:44 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:37:44 PM] 2022/03/06 14:37:44 no signature help: cannot find an enclosing function
+	position={77 36}
+
+[Error - 2:37:55 PM] 2022/03/06 14:37:55 no signature help: cannot find an enclosing function
+	position={77 51}
+
+[Error - 2:37:57 PM] 2022/03/06 14:37:57 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:37: mixed named and unnamed parameters
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:57 PM] 2022/03/06 14:37:57 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:37: mixed named and unnamed parameters
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:57 PM] 2022/03/06 14:37:57 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:37: mixed named and unnamed parameters
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:37:58 PM] 2022/03/06 14:37:58 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:37: mixed named and unnamed parameters
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:04 PM] 2022/03/06 14:38:04 no signature help: cannot find an enclosing function
+	position={77 71}
+
+[Error - 2:38:06 PM] 2022/03/06 14:38:06 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:78:73: expected type, found ')'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:08 PM] 2022/03/06 14:38:08 no signature help: cannot find an enclosing function
+	position={77 82}
+
+[Info  - 2:38:15 PM] 2022/03/06 14:38:15 background imports cache refresh starting
+
+[Info  - 2:38:15 PM] 2022/03/06 14:38:15 background refresh finished after 3.12529ms
+
+[Error - 2:38:17 PM] 2022/03/06 14:38:17 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:17 PM] 2022/03/06 14:38:17 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:18 PM] 2022/03/06 14:38:18 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:38:18 PM] 2022/03/06 14:38:18 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:18 PM] 2022/03/06 14:38:18 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:82:1: expected operand, found '}' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:20 PM] 2022/03/06 14:38:20 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:20 PM] 2022/03/06 14:38:20 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:82:1: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:20 PM] 2022/03/06 14:38:20 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:38:21 PM] 2022/03/06 14:38:21 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:21 PM] 2022/03/06 14:38:21 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:21 PM] 2022/03/06 14:38:21 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:82:1: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:21 PM] 2022/03/06 14:38:21 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:38:21 PM] 2022/03/06 14:38:21 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:21 PM] 2022/03/06 14:38:21 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:21 PM] 2022/03/06 14:38:21 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:21 PM] 2022/03/06 14:38:21 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:82:1: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:22 PM] 2022/03/06 14:38:22 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:38:22 PM] 2022/03/06 14:38:22 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:22 PM] 2022/03/06 14:38:22 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:82:1: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:22 PM] 2022/03/06 14:38:22 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:38:22 PM] 2022/03/06 14:38:22 no signature help: cannot find an enclosing function
+	position={79 24}
+
+[Error - 2:38:22 PM] 2022/03/06 14:38:22 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:82:1: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:23 PM] 2022/03/06 14:38:23 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:23 PM] 2022/03/06 14:38:23 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:38:31 PM] 2022/03/06 14:38:31 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:31 PM] 2022/03/06 14:38:31 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:82:2: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:35 PM] 2022/03/06 14:38:35 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:35 PM] 2022/03/06 14:38:35 no signature help: cannot find an enclosing function
+	position={80 22}
+
+[Error - 2:38:35 PM] 2022/03/06 14:38:35 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:39 PM] 2022/03/06 14:38:39 no signature help: no signature help within a string literal
+	position={80 35}
+
+[Info  - 2:38:47 PM] 2022/03/06 14:38:47 background imports cache refresh starting
+
+[Info  - 2:38:47 PM] 2022/03/06 14:38:47 background refresh finished after 3.343347ms
+
+[Error - 2:38:56 PM] 2022/03/06 14:38:56 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:56 PM] 2022/03/06 14:38:56 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:86:1: expected operand, found '}' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:38:57 PM] 2022/03/06 14:38:57 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:57 PM] 2022/03/06 14:38:57 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:38:58 PM] 2022/03/06 14:38:58 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:86:1: expected operand, found '}' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:39:05 PM] 2022/03/06 14:39:05 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:05 PM] 2022/03/06 14:39:05 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:88:1: expected operand, found '}' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:39:06 PM] 2022/03/06 14:39:06 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:08 PM] 2022/03/06 14:39:08 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:13 PM] 2022/03/06 14:39:13 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:13 PM] 2022/03/06 14:39:13 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:88:1: expected operand, found '}' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:39:15 PM] 2022/03/06 14:39:15 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Info  - 2:39:18 PM] 2022/03/06 14:39:18 background imports cache refresh starting
+
+[Info  - 2:39:18 PM] 2022/03/06 14:39:18 background refresh finished after 3.122643ms
+
+[Error - 2:39:41 PM] 2022/03/06 14:39:41 no signature help: cannot find an enclosing function
+	position={85 48}
+
+[Info  - 2:39:53 PM] 2022/03/06 14:39:53 background imports cache refresh starting
+
+[Info  - 2:39:53 PM] 2022/03/06 14:39:53 background refresh finished after 3.343442ms
+
+[Error - 2:39:55 PM] 2022/03/06 14:39:55 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:56 PM] 2022/03/06 14:39:56 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:57 PM] 2022/03/06 14:39:57 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:57 PM] 2022/03/06 14:39:57 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:58 PM] 2022/03/06 14:39:58 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:89:1: expected operand, found '}' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:39:58 PM] 2022/03/06 14:39:58 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:39:59 PM] 2022/03/06 14:39:59 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:59 PM] 2022/03/06 14:39:59 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:39:59 PM] 2022/03/06 14:39:59 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:9: expected ';', found '!' (and 6 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:39:59 PM] 2022/03/06 14:39:59 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:40:00 PM] 2022/03/06 14:40:00 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:9: expected ';', found '!'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:40:00 PM] 2022/03/06 14:40:00 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:00 PM] 2022/03/06 14:40:00 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:9: expected ';', found '!' (and 6 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:40:01 PM] 2022/03/06 14:40:01 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:40:01 PM] 2022/03/06 14:40:01 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:01 PM] 2022/03/06 14:40:01 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:89:1: expected operand, found '}' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:40:01 PM] 2022/03/06 14:40:01 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:40:01 PM] 2022/03/06 14:40:01 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:03 PM] 2022/03/06 14:40:03 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:04 PM] 2022/03/06 14:40:04 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:04 PM] 2022/03/06 14:40:04 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:04 PM] 2022/03/06 14:40:04 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:9: expected ';', found '!' (and 6 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:40:04 PM] 2022/03/06 14:40:04 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:40:05 PM] 2022/03/06 14:40:05 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:05 PM] 2022/03/06 14:40:05 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:05 PM] 2022/03/06 14:40:05 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:89:1: expected operand, found '}' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:40:05 PM] 2022/03/06 14:40:05 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:40:05 PM] 2022/03/06 14:40:05 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Info  - 2:40:23 PM] 2022/03/06 14:40:23 background imports cache refresh starting
+
+[Info  - 2:40:23 PM] 2022/03/06 14:40:23 background refresh finished after 3.205906ms
+
+[Error - 2:40:25 PM] 2022/03/06 14:40:25 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:25 PM] 2022/03/06 14:40:25 no signature help: cannot find an enclosing function
+	position={87 19}
+
+[Error - 2:40:26 PM] 2022/03/06 14:40:26 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:89:2: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:40:27 PM] 2022/03/06 14:40:27 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:27 PM] 2022/03/06 14:40:27 no signature help: cannot find an enclosing function
+	position={87 19}
+
+[Error - 2:40:27 PM] 2022/03/06 14:40:27 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:89:2: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:40:27 PM] 2022/03/06 14:40:27 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:40:30 PM] 2022/03/06 14:40:30 no signature help: no signature help within a string literal
+	position={87 32}
+
+[Info  - 2:40:54 PM] 2022/03/06 14:40:54 background imports cache refresh starting
+
+[Info  - 2:40:54 PM] 2022/03/06 14:40:54 background refresh finished after 3.450383ms
+
+[Error - 2:41:04 PM] 2022/03/06 14:41:04 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:41:05 PM] 2022/03/06 14:41:05 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:41:05 PM] 2022/03/06 14:41:05 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:41:05 PM] 2022/03/06 14:41:05 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:1: expected if statement or block, found '}'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Info  - 2:41:24 PM] 2022/03/06 14:41:24 background imports cache refresh starting
+
+[Info  - 2:41:24 PM] 2022/03/06 14:41:24 background refresh finished after 3.227691ms
+
+[Error - 2:41:54 PM] 2022/03/06 14:41:54 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:41:54 PM] 2022/03/06 14:41:54 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Info  - 2:41:55 PM] 2022/03/06 14:41:55 background imports cache refresh starting
+
+[Info  - 2:41:55 PM] 2022/03/06 14:41:55 background refresh finished after 3.48906ms
+
+[Error - 2:41:56 PM] 2022/03/06 14:41:56 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:41:56 PM] 2022/03/06 14:41:56 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:2: expected operand, found '}' (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:41:59 PM] 2022/03/06 14:41:59 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:42:00 PM] 2022/03/06 14:42:00 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:37: expected operand, found '}' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:42:00 PM] 2022/03/06 14:42:00 unable to compute analysis error position: invalid pos
+	category="fillstruct"
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:42:00 PM] 2022/03/06 14:42:00 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:42:05 PM] 2022/03/06 14:42:05 no signature help: cannot find an enclosing function
+	position={89 44}
+
+[Error - 2:42:06 PM] 2022/03/06 14:42:06 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:42:07 PM] 2022/03/06 14:42:07 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:56: expected operand, found '}' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 2:42:07 PM] 2022/03/06 14:42:07 unable to compute analysis error position: invalid pos
+	category="fillstruct"
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 2:42:07 PM] 2022/03/06 14:42:07 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/shortener.go
+
+[Error - 2:42:23 PM] 2022/03/06 14:42:23 no signature help: cannot find an enclosing function
+	position={92 18}
+
+[Error - 2:42:23 PM] 2022/03/06 14:42:23 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:95:1: expected operand, found '}' (and 3 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Info  - 2:42:26 PM] 2022/03/06 14:42:26 background imports cache refresh starting
+
+[Info  - 2:42:26 PM] 2022/03/06 14:42:26 background refresh finished after 3.380266ms
+
+[Info  - 2:43:58 PM] 2022/03/06 14:43:58 background imports cache refresh starting
+
+[Info  - 2:43:58 PM] 2022/03/06 14:43:58 background refresh finished after 3.241734ms
+
+[Error - 2:44:00 PM] 2022/03/06 14:44:00 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:99:1: expected 'IDENT', found 'func' (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:02 PM] 2022/03/06 14:44:02 no signature help: cannot find an enclosing function
+	position={96 6}
+
+[Error - 2:44:02 PM] 2022/03/06 14:44:02 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:8: expected 'IDENT', found newline (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:03 PM] 2022/03/06 14:44:03 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:12: expected 'IDENT', found newline (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:05 PM] 2022/03/06 14:44:05 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:15: expected 'IDENT', found newline (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:06 PM] 2022/03/06 14:44:06 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:16: expected 'IDENT', found newline (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:06 PM] 2022/03/06 14:44:06 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:16: expected 'IDENT', found newline (and 5 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:08 PM] 2022/03/06 14:44:08 no completions found: this is a definition of func (*App).S(_ func(app *App) invalid type, w net/http.ResponseWriter, r *net/http.Request)
+	position={96 17}
+
+[Error - 2:44:09 PM] 2022/03/06 14:44:09 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:20: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:09 PM] 2022/03/06 14:44:09 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:19: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:10 PM] 2022/03/06 14:44:10 no completions found: this is a definition of func (*App).C(_ func(app *App) invalid type, w net/http.ResponseWriter, r *net/http.Request)
+	position={96 17}
+
+[Error - 2:44:10 PM] 2022/03/06 14:44:10 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:19: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:11 PM] 2022/03/06 14:44:11 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:30: expected '(', found newline (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:12 PM] 2022/03/06 14:44:12 no signature help: cannot find an enclosing function
+	position={96 30}
+
+[Error - 2:44:14 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 2:44:17 PM] 2022/03/06 14:44:17 no signature help: cannot find an enclosing function
+	position={96 52}
+
+[Error - 2:44:18 PM] 2022/03/06 14:44:18 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:31: mixed named and unnamed parameters
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:19 PM] 2022/03/06 14:44:19 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:97:57: expected type, found ')'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 2:44:28 PM] 2022/03/06 14:44:28 background imports cache refresh starting
+
+[Info  - 2:44:28 PM] 2022/03/06 14:44:28 background refresh finished after 3.275405ms
+
+[Error - 2:44:36 PM] 2022/03/06 14:44:36 no completions found: this is a definition of var b invalid type
+	position={97 6}
+
+[Error - 2:44:36 PM] 2022/03/06 14:44:36 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:98:6: missing variable type or initialization
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:37 PM] 2022/03/06 14:44:37 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:98:6: missing variable type or initialization
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:44 PM] 2022/03/06 14:44:44 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:44:53 PM] 2022/03/06 14:44:53 no signature help: cannot find an enclosing function
+	position={99 35}
+
+[Error - 2:45:01 PM] 2022/03/06 14:45:01 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:1: expected operand, found '}' (and 4 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:04 PM] 2022/03/06 14:45:04 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:9: illegal label declaration (and 8 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:05 PM] 2022/03/06 14:45:05 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:1: expected operand, found '}' (and 4 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 2:45:05 PM] 2022/03/06 14:45:05 background imports cache refresh starting
+
+[Info  - 2:45:05 PM] 2022/03/06 14:45:05 background refresh finished after 3.01406ms
+
+[Error - 2:45:19 PM] 2022/03/06 14:45:19 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:5: expected boolean expression, found assignment (missing parentheses around composite literal?)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:21 PM] 2022/03/06 14:45:21 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:5: expected boolean expression, found assignment (missing parentheses around composite literal?)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:22 PM] 2022/03/06 14:45:22 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:5: expected boolean expression, found assignment (missing parentheses around composite literal?)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:23 PM] 2022/03/06 14:45:23 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:5: expected boolean expression, found assignment (missing parentheses around composite literal?)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:23 PM] 2022/03/06 14:45:23 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:1: expected operand, found '}' (and 6 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:27 PM] 2022/03/06 14:45:27 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:28: expected operand, found ')' (and 12 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:27 PM] 2022/03/06 14:45:27 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 2:45:28 PM] 2022/03/06 14:45:28 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:1: expected operand, found '}' (and 6 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:28 PM] 2022/03/06 14:45:28 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:1: expected operand, found '}' (and 6 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:29 PM] 2022/03/06 14:45:29 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:1: expected operand, found '}' (and 6 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:31 PM] 2022/03/06 14:45:31 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:39: expected '{', found '!' (and 10 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:31 PM] 2022/03/06 14:45:31 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 2:45:32 PM] 2022/03/06 14:45:32 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:101:39: expected '{', found '!' (and 10 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:32 PM] 2022/03/06 14:45:32 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 2:45:33 PM] 2022/03/06 14:45:33 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:1: expected operand, found '}' (and 6 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:49 PM] 2022/03/06 14:45:49 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:45: expected '[', found ')' (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:49 PM] 2022/03/06 14:45:49 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Info  - 2:45:49 PM] 2022/03/06 14:45:49 background imports cache refresh starting
+
+[Info  - 2:45:49 PM] 2022/03/06 14:45:49 background refresh finished after 3.369845ms
+
+[Error - 2:45:50 PM] 2022/03/06 14:45:50 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:46: expected type, found 'type' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:51 PM] 2022/03/06 14:45:51 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:53: expected type, found 'type'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:51 PM] 2022/03/06 14:45:51 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:53: expected type, found 'type'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:45:57 PM] 2022/03/06 14:45:57 no signature help: no signature help within a string literal
+	position={101 60}
+
+[Error - 2:46:00 PM] 2022/03/06 14:46:00 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:68: expected operand, found '}' (and 12 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:46:00 PM] 2022/03/06 14:46:00 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 2:46:00 PM] 2022/03/06 14:46:00 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:69: expected operand, found '}' (and 12 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:46:00 PM] 2022/03/06 14:46:00 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 2:46:01 PM] 2022/03/06 14:46:01 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:102:68: expected operand, found '}' (and 12 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 2:46:20 PM] 2022/03/06 14:46:20 background imports cache refresh starting
+
+[Info  - 2:46:20 PM] 2022/03/06 14:46:20 background refresh finished after 3.407912ms
+
+[Error - 2:46:34 PM] 2022/03/06 14:46:34 no signature help: cannot find an enclosing function
+	position={104 11}
+
+[Error - 2:46:35 PM] 2022/03/06 14:46:35 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:105:2: expected 1 expression
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:46:35 PM] 2022/03/06 14:46:35 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:105:2: expected 1 expression
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:46:36 PM] 2022/03/06 14:46:36 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:106:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:46:50 PM] 2022/03/06 14:46:50 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:106:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 2:46:53 PM] 2022/03/06 14:46:53 background imports cache refresh starting
+
+[Info  - 2:46:53 PM] 2022/03/06 14:46:53 background refresh finished after 3.748888ms
+
+[Error - 2:46:54 PM] 2022/03/06 14:46:54 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:46:55 PM] 2022/03/06 14:46:55 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:46:58 PM] 2022/03/06 14:46:58 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:01 PM] 2022/03/06 14:47:01 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:01 PM] 2022/03/06 14:47:01 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:02 PM] 2022/03/06 14:47:02 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:03 PM] 2022/03/06 14:47:03 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:03 PM] 2022/03/06 14:47:03 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:05 PM] 2022/03/06 14:47:05 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:07 PM] 2022/03/06 14:47:07 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:07 PM] 2022/03/06 14:47:07 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:08 PM] 2022/03/06 14:47:08 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:09 PM] 2022/03/06 14:47:09 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:47:09 PM] 2022/03/06 14:47:09 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:107:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 2:47:24 PM] 2022/03/06 14:47:24 background imports cache refresh starting
+
+[Info  - 2:47:24 PM] 2022/03/06 14:47:24 background refresh finished after 3.325571ms
+
+[Error - 2:48:16 PM] 2022/03/06 14:48:16 no signature help: cannot find an enclosing function
+	position={105 65}
+
+[Error - 2:48:21 PM] 2022/03/06 14:48:21 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:108:1: expected operand, found '}' (and 4 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 2:48:23 PM] 2022/03/06 14:48:23 background imports cache refresh starting
+
+[Info  - 2:48:23 PM] 2022/03/06 14:48:23 background refresh finished after 3.610219ms
+
+[Error - 2:48:33 PM] 2022/03/06 14:48:33 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:108:45: expected '[', found ')' (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:48:33 PM] 2022/03/06 14:48:33 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 2:48:34 PM] 2022/03/06 14:48:34 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:108:46: expected type, found 'type' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:48:35 PM] 2022/03/06 14:48:35 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:108:53: expected type, found 'type'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:48:36 PM] 2022/03/06 14:48:36 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:108:53: expected type, found 'type'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:48:40 PM] 2022/03/06 14:48:40 no signature help: no signature help within a string literal
+	position={107 60}
+
+[Error - 2:48:42 PM] 2022/03/06 14:48:42 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:108:68: expected operand, found '}' (and 12 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:48:42 PM] 2022/03/06 14:48:42 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 2:48:44 PM] 2022/03/06 14:48:44 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Error - 2:48:44 PM] 2022/03/06 14:48:44 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Error - 2:48:44 PM] 2022/03/06 14:48:44 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Info  - 2:48:55 PM] 2022/03/06 14:48:55 background imports cache refresh starting
+
+[Info  - 2:48:55 PM] 2022/03/06 14:48:55 background refresh finished after 3.156652ms
+
+[Error - 2:49:11 PM] 2022/03/06 14:49:11 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:112:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:49:30 PM] 2022/03/06 14:49:30 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:112:1: expected operand, found '}' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 2:49:38 PM] 2022/03/06 14:49:38 background imports cache refresh starting
+
+[Info  - 2:49:38 PM] 2022/03/06 14:49:38 background refresh finished after 3.319244ms
+
+[Error - 2:49:56 PM] 2022/03/06 14:49:56 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:112:36: expected '[', found ')' (and 13 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:49:56 PM] 2022/03/06 14:49:56 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 2:49:56 PM] 2022/03/06 14:49:56 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:112:37: expected type, found 'type' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:49:57 PM] 2022/03/06 14:49:57 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:112:44: expected type, found 'type'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:49:58 PM] 2022/03/06 14:49:58 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:112:44: expected type, found 'type'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 2:50:11 PM] 2022/03/06 14:50:11 background imports cache refresh starting
+
+[Info  - 2:50:11 PM] 2022/03/06 14:50:11 background refresh finished after 3.256872ms
+
+[Error - 2:50:12 PM] 2022/03/06 14:50:12 no signature help: no signature help within a string literal
+	position={111 51}
+
+[Error - 2:50:17 PM] 2022/03/06 14:50:17 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:112:57: expected operand, found '}' (and 10 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 2:50:17 PM] 2022/03/06 14:50:17 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Info  - 2:50:42 PM] 2022/03/06 14:50:42 background imports cache refresh starting
+
+[Info  - 2:50:42 PM] 2022/03/06 14:50:42 background refresh finished after 3.414716ms
+
+[Info  - 2:51:14 PM] 2022/03/06 14:51:14 background imports cache refresh starting
+
+[Info  - 2:51:14 PM] 2022/03/06 14:51:14 background refresh finished after 3.575843ms
+
+[Info  - 2:54:22 PM] 2022/03/06 14:54:22 go/packages.Load
+	snapshot=998
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/main.go]
+	packages=1
+
+[Info  - 2:54:22 PM] 2022/03/06 14:54:22 go/packages.Load
+	snapshot=998
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 2:54:22 PM] 2022/03/06 14:54:22 go/packages.Load
+	snapshot=998
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/main.go]
+	packages=1
+
+[Info  - 2:54:22 PM] 2022/03/06 14:54:22 go/packages.Load
+	snapshot=998
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 2:54:35 PM] 2022/03/06 14:54:35 background imports cache refresh starting
+
+[Info  - 2:54:35 PM] 2022/03/06 14:54:35 background refresh finished after 3.539377ms
+
+[Error - 2:56:03 PM] 2022/03/06 14:56:03 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:70:6: expected ';', found ':='
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Info  - 2:56:06 PM] 2022/03/06 14:56:06 background imports cache refresh starting
+
+[Info  - 2:56:06 PM] 2022/03/06 14:56:06 background refresh finished after 3.525058ms
+
+[Error - 3:00:55 PM] 2022/03/06 15:00:55 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:70:6: expected ';', found ':='
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 3:01:01 PM] 2022/03/06 15:01:01 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Error - 3:01:02 PM] 2022/03/06 15:01:02 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:70:6: expected ';', found ':='
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 3:01:07 PM] 2022/03/06 15:01:07 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:70:6: expected ';', found ':='
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Info  - 3:01:08 PM] 2022/03/06 15:01:08 go/packages.Load
+	snapshot=1063
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+	packages=1
+
+[Info  - 3:01:09 PM] 2022/03/06 15:01:08 go/packages.Load
+	snapshot=1063
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 3:01:09 PM] 2022/03/06 15:01:09 go/packages.Load
+	snapshot=1063
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+	packages=1
+
+[Info  - 3:01:09 PM] 2022/03/06 15:01:09 go/packages.Load
+	snapshot=1063
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 3:01:09 PM] 2022/03/06 15:01:09 go/packages.Load
+	snapshot=1063
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 3:01:09 PM] 2022/03/06 15:01:09 go/packages.Load
+	snapshot=1063
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Error - 3:01:18 PM] 2022/03/06 15:01:18 no signature help: no signature help within a string literal
+	position={68 39}
+
+[Info  - 3:01:19 PM] 2022/03/06 15:01:19 background imports cache refresh starting
+
+[Info  - 3:01:19 PM] 2022/03/06 15:01:19 background refresh finished after 3.828802ms
+
+[Error - 3:01:23 PM] 2022/03/06 15:01:23 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:69:44: expected operand, found ']'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Info  - 3:01:49 PM] 2022/03/06 15:01:49 background imports cache refresh starting
+
+[Info  - 3:01:49 PM] 2022/03/06 15:01:49 background refresh finished after 3.346536ms
+
+[Info  - 3:25:56 PM] 2022/03/06 15:25:56 background imports cache refresh starting
+
+[Info  - 3:25:56 PM] 2022/03/06 15:25:56 background refresh finished after 3.357484ms
+
+[Info  - 3:26:27 PM] 2022/03/06 15:26:27 background imports cache refresh starting
+
+[Info  - 3:26:27 PM] 2022/03/06 15:26:27 background refresh finished after 3.184064ms
+
+[Info  - 3:27:25 PM] 2022/03/06 15:27:25 background imports cache refresh starting
+
+[Info  - 3:27:25 PM] 2022/03/06 15:27:25 background refresh finished after 3.368171ms
+
+[Error - 3:27:34 PM] 2022/03/06 15:27:34 no signature help: cannot find an enclosing function
+	position={24 60}
+
+[Info  - 3:27:55 PM] 2022/03/06 15:27:55 background imports cache refresh starting
+
+[Info  - 3:27:55 PM] 2022/03/06 15:27:55 background refresh finished after 2.174417ms
+
+[Info  - 3:29:16 PM] 2022/03/06 15:29:16 background imports cache refresh starting
+
+[Info  - 3:29:16 PM] 2022/03/06 15:29:16 background refresh finished after 3.458408ms
+
+[Error - 3:29:17 PM] 2022/03/06 15:29:17 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:93:7: expected ';', found app (and 2 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 3:29:20 PM] 2022/03/06 15:29:20 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 3:29:20 PM] 2022/03/06 15:29:20 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 3:29:21 PM] 2022/03/06 15:29:21 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 3:29:21 PM] 2022/03/06 15:29:21 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:94:10: expected ';', found '!' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 3:29:22 PM] 2022/03/06 15:29:22 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:94:10: expected ';', found '!'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 3:29:22 PM] 2022/03/06 15:29:22 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 3:29:22 PM] 2022/03/06 15:29:22 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 3:29:23 PM] 2022/03/06 15:29:23 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:95:2: expected operand, found '}' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 3:29:23 PM] 2022/03/06 15:29:23 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 3:29:29 PM] 2022/03/06 15:29:29 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 3:29:29 PM] 2022/03/06 15:29:29 no signature help: cannot find an enclosing function
+	position={94 20}
+
+[Error - 3:29:29 PM] 2022/03/06 15:29:29 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Info  - 3:29:46 PM] 2022/03/06 15:29:46 background imports cache refresh starting
+
+[Info  - 3:29:46 PM] 2022/03/06 15:29:46 background refresh finished after 3.085797ms
+
+[Info  - 3:30:55 PM] 2022/03/06 15:30:55 background imports cache refresh starting
+
+[Info  - 3:30:55 PM] 2022/03/06 15:30:55 background refresh finished after 3.139996ms
+
+[Error - 3:30:55 PM] 2022/03/06 15:30:55 no signature help: cannot find an enclosing function
+	position={120 22}
+
+[Error - 3:31:19 PM] 2022/03/06 15:31:19 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Error - 3:31:20 PM] 2022/03/06 15:31:20 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Error - 3:31:20 PM] 2022/03/06 15:31:20 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Error - 3:31:20 PM] 2022/03/06 15:31:20 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Info  - 3:31:26 PM] 2022/03/06 15:31:26 background imports cache refresh starting
+
+[Info  - 3:31:26 PM] 2022/03/06 15:31:26 background refresh finished after 2.928093ms
+
+[Info  - 3:33:05 PM] 2022/03/06 15:33:05 background imports cache refresh starting
+
+[Info  - 3:33:05 PM] 2022/03/06 15:33:05 background refresh finished after 3.302032ms
+
+[Info  - 3:55:50 PM] 2022/03/06 15:55:50 background imports cache refresh starting
+
+[Info  - 3:55:50 PM] 2022/03/06 15:55:50 background refresh finished after 3.191008ms
+
+[Info  - 4:02:26 PM] 2022/03/06 16:02:26 background imports cache refresh starting
+
+[Info  - 4:02:26 PM] 2022/03/06 16:02:26 background refresh finished after 3.068236ms
+
+[Info  - 4:19:02 PM] 2022/03/06 16:19:02 background imports cache refresh starting
+
+[Info  - 4:19:02 PM] 2022/03/06 16:19:02 background refresh finished after 3.059324ms
+
+[Info  - 4:19:05 PM] 2022/03/06 16:19:05 go/packages.Load
+	snapshot=1322
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/helpers.go]
+	packages=1
+
+[Info  - 4:19:05 PM] 2022/03/06 16:19:05 go/packages.Load
+	snapshot=1322
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:19:05 PM] 2022/03/06 16:19:05 go/packages.Load
+	snapshot=1322
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/helpers.go]
+	packages=1
+
+[Info  - 4:19:05 PM] 2022/03/06 16:19:05 go/packages.Load
+	snapshot=1322
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:19:06 PM] 2022/03/06 16:19:06 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Error - 4:19:06 PM] 2022/03/06 16:19:06 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Error - 4:19:07 PM] 2022/03/06 16:19:07 error executing postfix template: template: postfix_snippet:1:33: executing "postfix_snippet" at <.TypeName>: error calling TypeName: invalid type: <nil>
+
+[Info  - 4:19:08 PM] 2022/03/06 16:19:08 go/packages.Load
+	snapshot=1329
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 4:19:08 PM] 2022/03/06 16:19:08 go/packages.Load
+	snapshot=1329
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 4:19:32 PM] 2022/03/06 16:19:32 background imports cache refresh starting
+
+[Info  - 4:19:32 PM] 2022/03/06 16:19:32 background refresh finished after 3.719058ms
+
+[Info  - 4:19:43 PM] 2022/03/06 16:19:43 go/packages.Load
+	snapshot=1334
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/helpers.go]
+	packages=1
+
+[Info  - 4:19:43 PM] 2022/03/06 16:19:43 go/packages.Load
+	snapshot=1334
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:19:44 PM] 2022/03/06 16:19:44 go/packages.Load
+	snapshot=1335
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 4:19:44 PM] 2022/03/06 16:19:44 go/packages.Load
+	snapshot=1335
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 4:20:11 PM] 2022/03/06 16:20:11 background imports cache refresh starting
+
+[Info  - 4:20:11 PM] 2022/03/06 16:20:11 background refresh finished after 3.202849ms
+
+[Error - 4:38:58 PM] 2022/03/06 16:38:58 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:69:44: expected operand, found ']'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 4:39:01 PM] 2022/03/06 16:39:01 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:69:44: expected operand, found ']'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 4:39:05 PM] 2022/03/06 16:39:05 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:69:44: expected operand, found ']'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 4:39:11 PM] 2022/03/06 16:39:11 no completions found: this is a definition of var s []string
+	position={68 2}
+
+[Error - 4:39:19 PM] 2022/03/06 16:39:19 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:72:6: expected ';', found ':='
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Info  - 4:39:20 PM] 2022/03/06 16:39:20 background imports cache refresh starting
+
+[Info  - 4:39:20 PM] 2022/03/06 16:39:20 background refresh finished after 3.611275ms
+
+[Error - 4:39:22 PM] 2022/03/06 16:39:22 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:70:18: expected operand, found ']'
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 4:39:25 PM] 2022/03/06 16:39:25 no signature help: cannot find an enclosing function
+	position={69 24}
+
+[Info  - 4:39:51 PM] 2022/03/06 16:39:51 background imports cache refresh starting
+
+[Info  - 4:39:51 PM] 2022/03/06 16:39:51 background refresh finished after 3.289929ms
+
+[Error - 4:40:06 PM] 2022/03/06 16:40:06 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:11: expected operand, found ',' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 4:40:08 PM] 2022/03/06 16:40:08 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:11: expected operand, found '{' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 4:40:11 PM] 2022/03/06 16:40:11 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:11: expected operand, found ',' (and 1 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Error - 4:40:15 PM] 2022/03/06 16:40:15 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 4:40:15 PM] 2022/03/06 16:40:15 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:31: expected operand, found '}' (and 7 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/shortener.go"
+
+[Info  - 4:40:22 PM] 2022/03/06 16:40:22 background imports cache refresh starting
+
+[Info  - 4:40:22 PM] 2022/03/06 16:40:22 background refresh finished after 3.434364ms
+
+[Error - 4:40:22 PM] 2022/03/06 16:40:22 no signature help: no signature help within a string literal
+	position={90 37}
+
+[Info  - 4:40:53 PM] 2022/03/06 16:40:53 background imports cache refresh starting
+
+[Info  - 4:40:53 PM] 2022/03/06 16:40:53 background refresh finished after 3.85272ms
+
+[Info  - 4:42:07 PM] 2022/03/06 16:42:07 background imports cache refresh starting
+
+[Info  - 4:42:07 PM] 2022/03/06 16:42:07 background refresh finished after 3.536054ms
+
+[Info  - 4:56:15 PM] 2022/03/06 16:56:15 background imports cache refresh starting
+
+[Info  - 4:56:15 PM] 2022/03/06 16:56:15 background refresh finished after 3.208565ms
+
+[Info  - 4:58:11 PM] 2022/03/06 16:58:11 background imports cache refresh starting
+
+[Info  - 4:58:11 PM] 2022/03/06 16:58:11 background refresh finished after 2.916622ms
+
+[Info  - 4:58:49 PM] 2022/03/06 16:58:49 background imports cache refresh starting
+
+[Info  - 4:58:49 PM] 2022/03/06 16:58:49 background refresh finished after 3.214082ms
+
+[Info  - 5:00:28 PM] 2022/03/06 17:00:28 background imports cache refresh starting
+
+[Info  - 5:00:28 PM] 2022/03/06 17:00:28 background refresh finished after 2.999036ms
+
+[Info  - 5:01:09 PM] 2022/03/06 17:01:09 background imports cache refresh starting
+
+[Info  - 5:01:09 PM] 2022/03/06 17:01:09 background refresh finished after 3.497782ms
+
+[Info  - 5:01:47 PM] 2022/03/06 17:01:47 background imports cache refresh starting
+
+[Info  - 5:01:47 PM] 2022/03/06 17:01:47 background refresh finished after 2.714847ms
+
+[Error - 5:02:11 PM] 2022/03/06 17:02:11 no signature help: no signature help within a string literal
+	position={25 77}
+
+[Info  - 5:02:28 PM] 2022/03/06 17:02:28 background imports cache refresh starting
+
+[Info  - 5:02:28 PM] 2022/03/06 17:02:28 background refresh finished after 3.400002ms
+
+[Error - 5:03:08 PM] 2022/03/06 17:03:08 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:84: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:08 PM] 2022/03/06 17:03:08 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:85: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:08 PM] 2022/03/06 17:03:08 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:10 PM] 2022/03/06 17:03:10 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:90: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:10 PM] 2022/03/06 17:03:10 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:93: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:12 PM] 2022/03/06 17:03:12 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:93: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:13 PM] 2022/03/06 17:03:13 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:93: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:13 PM] 2022/03/06 17:03:13 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:93: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:14 PM] 2022/03/06 17:03:14 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:93: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:14 PM] 2022/03/06 17:03:14 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:93: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:03:15 PM] 2022/03/06 17:03:15 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:93: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 5:03:21 PM] 2022/03/06 17:03:21 background imports cache refresh starting
+
+[Info  - 5:03:21 PM] 2022/03/06 17:03:21 background refresh finished after 3.548347ms
+
+[Error - 5:03:22 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 5:03:52 PM] 2022/03/06 17:03:52 background imports cache refresh starting
+
+[Info  - 5:03:52 PM] 2022/03/06 17:03:52 background refresh finished after 2.991493ms
+
+[Error - 5:04:10 PM] 2022/03/06 17:04:10 no signature help: no signature help within a string literal
+	position={26 53}
+
+[Error - 5:04:25 PM] 2022/03/06 17:04:25 no signature help: cannot find signature for Fun *ast.SelectorExpr (&{http Dir})
+	position={26 93}
+
+[Info  - 5:04:26 PM] 2022/03/06 17:04:26 background imports cache refresh starting
+
+[Info  - 5:04:26 PM] 2022/03/06 17:04:26 background refresh finished after 3.667568ms
+
+[Info  - 5:04:57 PM] 2022/03/06 17:04:57 background imports cache refresh starting
+
+[Info  - 5:04:57 PM] 2022/03/06 17:04:57 background refresh finished after 3.047716ms
+
+[Info  - 5:09:19 PM] 2022/03/06 17:09:19 background imports cache refresh starting
+
+[Info  - 5:09:19 PM] 2022/03/06 17:09:19 background refresh finished after 3.840358ms
+
+[Info  - 5:09:54 PM] 2022/03/06 17:09:54 background imports cache refresh starting
+
+[Info  - 5:09:54 PM] 2022/03/06 17:09:54 background refresh finished after 3.346362ms
+
+[Error - 5:10:23 PM] 2022/03/06 17:10:23 no signature help: cannot find signature for Fun *ast.SelectorExpr (&{http Dir})
+	position={25 103}
+
+[Info  - 5:10:24 PM] 2022/03/06 17:10:24 background imports cache refresh starting
+
+[Info  - 5:10:24 PM] 2022/03/06 17:10:24 background refresh finished after 3.720997ms
+
+[Error - 5:10:41 PM] 2022/03/06 17:10:41 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:42 PM] 2022/03/06 17:10:42 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:108: expected operand, found ')' (and 98 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:42 PM] 2022/03/06 17:10:42 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:10:43 PM] 2022/03/06 17:10:43 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:43 PM] 2022/03/06 17:10:43 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:108: expected operand, found '/' (and 98 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:43 PM] 2022/03/06 17:10:43 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:10:44 PM] 2022/03/06 17:10:44 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:44 PM] 2022/03/06 17:10:44 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:108: expected operand, found ')' (and 98 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:44 PM] 2022/03/06 17:10:44 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:10:46 PM] 2022/03/06 17:10:46 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:46 PM] 2022/03/06 17:10:46 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:104: string literal not terminated (and 100 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:46 PM] 2022/03/06 17:10:46 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:10:49 PM] 2022/03/06 17:10:49 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:49 PM] 2022/03/06 17:10:49 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:104: string literal not terminated (and 100 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:49 PM] 2022/03/06 17:10:49 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:10:50 PM] 2022/03/06 17:10:50 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:50 PM] 2022/03/06 17:10:50 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:104: string literal not terminated (and 100 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:50 PM] 2022/03/06 17:10:50 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:10:50 PM] 2022/03/06 17:10:50 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:50 PM] 2022/03/06 17:10:50 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:51 PM] 2022/03/06 17:10:51 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:51 PM] 2022/03/06 17:10:51 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:51 PM] 2022/03/06 17:10:51 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:104: string literal not terminated (and 100 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:51 PM] 2022/03/06 17:10:51 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:51 PM] 2022/03/06 17:10:51 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:104: string literal not terminated (and 100 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:51 PM] 2022/03/06 17:10:51 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:10:53 PM] 2022/03/06 17:10:53 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:53 PM] 2022/03/06 17:10:53 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:104: string literal not terminated (and 100 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:53 PM] 2022/03/06 17:10:53 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:10:53 PM] 2022/03/06 17:10:53 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:53 PM] 2022/03/06 17:10:53 unable to compute positions for type errors: invalid pos
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 5:10:53 PM] 2022/03/06 17:10:53 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:26:104: string literal not terminated (and 100 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:10:54 PM] 2022/03/06 17:10:54 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Info  - 5:11:01 PM] 2022/03/06 17:11:01 background imports cache refresh starting
+
+[Info  - 5:11:01 PM] 2022/03/06 17:11:01 background refresh finished after 3.625103ms
+
+[Error - 5:11:25 PM] 2022/03/06 17:11:25 no signature help: no signature help within a string literal
+	position={26 65}
+
+[Info  - 5:11:31 PM] 2022/03/06 17:11:31 background imports cache refresh starting
+
+[Info  - 5:11:31 PM] 2022/03/06 17:11:31 background refresh finished after 3.186214ms
+
+[Error - 5:11:42 PM] 2022/03/06 17:11:42 no signature help: cannot find signature for Fun *ast.SelectorExpr (&{http Dir})
+	position={26 105}
+
+[Info  - 5:12:03 PM] 2022/03/06 17:12:03 background imports cache refresh starting
+
+[Info  - 5:12:03 PM] 2022/03/06 17:12:03 background refresh finished after 3.440021ms
+
+[Error - 5:17:09 PM] 2022/03/06 17:17:09 no signature help: no signature help within a string literal
+	position={109 82}
+
+[Error - 5:17:13 PM] 2022/03/06 17:17:13 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:15 PM] 2022/03/06 17:17:15 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:16 PM] 2022/03/06 17:17:16 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:17 PM] 2022/03/06 17:17:17 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:17 PM] 2022/03/06 17:17:17 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:18 PM] 2022/03/06 17:17:18 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:20 PM] 2022/03/06 17:17:20 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:20 PM] 2022/03/06 17:17:20 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:21 PM] 2022/03/06 17:17:21 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:22 PM] 2022/03/06 17:17:22 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:24 PM] 2022/03/06 17:17:24 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:87: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:25 PM] 2022/03/06 17:17:25 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:26 PM] 2022/03/06 17:17:26 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:28 PM] 2022/03/06 17:17:28 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:29 PM] 2022/03/06 17:17:29 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:29 PM] 2022/03/06 17:17:29 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:32 PM] 2022/03/06 17:17:32 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 5:17:34 PM] 2022/03/06 17:17:34 background imports cache refresh starting
+
+[Info  - 5:17:34 PM] 2022/03/06 17:17:34 background refresh finished after 3.224696ms
+
+[Error - 5:17:38 PM] 2022/03/06 17:17:38 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:89: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:38 PM] 2022/03/06 17:17:38 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:89: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:39 PM] 2022/03/06 17:17:39 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:89: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:40 PM] 2022/03/06 17:17:40 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:41 PM] 2022/03/06 17:17:41 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in argument list
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:46 PM] 2022/03/06 17:17:46 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:89: missing ',' in argument list (and 13 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:46 PM] 2022/03/06 17:17:46 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:17:46 PM] 2022/03/06 17:17:46 no signature help: no signature help within a string literal
+	position={109 86}
+
+[Error - 5:17:47 PM] 2022/03/06 17:17:47 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:89: missing ',' in argument list (and 13 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:48 PM] 2022/03/06 17:17:48 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:89: missing ',' in argument list (and 13 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:50 PM] 2022/03/06 17:17:50 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:89: missing ',' in argument list (and 13 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:52 PM] 2022/03/06 17:17:52 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:52 PM] 2022/03/06 17:17:52 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:17:52 PM] 2022/03/06 17:17:52 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:54 PM] 2022/03/06 17:17:54 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:55 PM] 2022/03/06 17:17:55 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:57 PM] 2022/03/06 17:17:57 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:17:57 PM] 2022/03/06 17:17:57 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/handlers.go
+
+[Error - 5:18:07 PM] 2022/03/06 17:18:07 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:18:09 PM] 2022/03/06 17:18:09 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 5:18:12 PM] 2022/03/06 17:18:12 background imports cache refresh starting
+
+[Info  - 5:18:12 PM] 2022/03/06 17:18:12 background refresh finished after 3.436599ms
+
+[Error - 5:18:12 PM] 2022/03/06 17:18:12 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Error - 5:18:13 PM] 2022/03/06 17:18:13 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/handlers.go:110:88: missing ',' in composite literal (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/handlers.go"
+
+[Info  - 5:18:44 PM] 2022/03/06 17:18:44 background imports cache refresh starting
+
+[Info  - 5:18:44 PM] 2022/03/06 17:18:44 background refresh finished after 3.478993ms
+
+[Info  - 5:19:24 PM] 2022/03/06 17:19:24 background imports cache refresh starting
+
+[Info  - 5:19:24 PM] 2022/03/06 17:19:24 background refresh finished after 3.482624ms
+
+[Info  - 5:26:56 PM] 2022/03/06 17:26:56 background imports cache refresh starting
+
+[Info  - 5:26:56 PM] 2022/03/06 17:26:56 background refresh finished after 3.521591ms
+
+[Info  - 5:27:30 PM] 2022/03/06 17:27:30 background imports cache refresh starting
+
+[Info  - 5:27:30 PM] 2022/03/06 17:27:30 background refresh finished after 3.541636ms
+
+[Info  - 5:32:04 PM] 2022/03/06 17:32:04 background imports cache refresh starting
+
+[Info  - 5:32:04 PM] 2022/03/06 17:32:04 background refresh finished after 3.115878ms
+
+[Info  - 5:37:36 PM] 2022/03/06 17:37:36 go/packages.Load
+	snapshot=1881
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/main.go]
+	packages=1
+
+[Info  - 5:37:36 PM] 2022/03/06 17:37:36 go/packages.Load
+	snapshot=1881
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 5:37:37 PM] 2022/03/06 17:37:37 go/packages.Load
+	snapshot=1881
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 5:37:37 PM] 2022/03/06 17:37:37 go/packages.Load
+	snapshot=1881
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/main.go]
+	packages=1
+
+[Error - 5:37:37 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 5:37:49 PM] 2022/03/06 17:37:49 background imports cache refresh starting
+
+[Info  - 5:37:49 PM] 2022/03/06 17:37:49 background refresh finished after 3.292791ms
+

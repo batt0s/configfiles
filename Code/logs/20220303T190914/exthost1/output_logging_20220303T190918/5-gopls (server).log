@@ -1,0 +1,1886 @@
+[Info  - 7:09:19 PM] 2022/03/03 19:09:19 go env for /home/battos/Desktop/GoURLShrotener
+(root /home/battos/Desktop/GoURLShrotener)
+(go version go version go1.17.7 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOCACHE=/home/battos/.cache/go-build
+GOMODCACHE=/home/battos/go/pkg/mod
+GOPATH=/home/battos/go
+GOPRIVATE=
+GOROOT=/usr/lib/go
+GOFLAGS=
+GONOPROXY=
+GOPROXY=https://proxy.golang.org,direct
+GONOSUMDB=
+GOSUMDB=sum.golang.org
+GO111MODULE=
+GOINSECURE=
+GOMOD=/home/battos/Desktop/GoURLShrotener/go.mod
+
+
+[Info  - 7:09:20 PM] 2022/03/03 19:09:20 go/packages.Load
+	snapshot=0
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[builtin github.com/batt0s/goshort/...]
+	packages=3
+
+[Info  - 7:09:20 PM] 2022/03/03 19:09:20 falling back to safe trimming due to type errors: [/usr/lib/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/lib/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 7:09:20 PM] 2022/03/03 19:09:20 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 7:09:20 PM] 2022/03/03 19:09:20 falling back to safe trimming due to type errors: [/home/battos/go/pkg/mod/github.com/mattn/go-sqlite3@v1.14.11/error.go:22:19: int not declared by package C /home/battos/go/pkg/mod/github.com/mattn/go-sqlite3@v1.14.11/sqlite3_context.go:38:22: sqlite3_context not declared by package C] or still-missing identifiers: map[]
+	package="github.com/mattn/go-sqlite3"
+
+[Error - 7:09:21 PM] 2022/03/03 19:09:21 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:09:22 PM] 2022/03/03 19:09:21 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:09:23 PM] 2022/03/03 19:09:23 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:09:24 PM] 2022/03/03 19:09:24 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:09:50 PM] 2022/03/03 19:09:50 background imports cache refresh starting
+
+[Info  - 7:09:51 PM] 2022/03/03 19:09:51 background refresh finished after 201.558081ms
+
+[Error - 8:15:46 PM] 2022/03/03 20:15:46 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:15:48 PM] 2022/03/03 20:15:48 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:15:52 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 8:16:18 PM] 2022/03/03 20:16:18 background imports cache refresh starting
+
+[Info  - 8:16:18 PM] 2022/03/03 20:16:18 background refresh finished after 47.550636ms
+
+[Info  - 8:16:48 PM] 2022/03/03 20:16:48 go/packages.Load
+	snapshot=5
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[builtin github.com/batt0s/goshort/...]
+	packages=3
+
+[Error - 8:16:48 PM] 2022/03/03 20:16:48 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:19:40 PM] 2022/03/03 20:19:40 go/packages.Load
+	snapshot=6
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 8:19:40 PM] 2022/03/03 20:19:40 go/packages.Load
+	snapshot=6
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 8:19:40 PM] 2022/03/03 20:19:40 github.com/batt0s/goshort/shortener: no dep handle for gorm.io/driver/ğ: no metadata for gorm.io/driver/ğ
+	snapshot=6
+
+[Info  - 8:19:40 PM] 2022/03/03 20:19:40 go/packages.Load
+	snapshot=6
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 8:19:40 PM] 2022/03/03 20:19:40 go/packages.Load
+	snapshot=6
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Error - 8:19:41 PM] 2022/03/03 20:19:41 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:19:41 PM] 2022/03/03 20:19:41 go/packages.Load
+	snapshot=7
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 8:19:41 PM] 2022/03/03 20:19:41 go/packages.Load
+	snapshot=7
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 8:19:41 PM] 2022/03/03 20:19:41 github.com/batt0s/goshort/shortener: no dep handle for gorm.io/driver/: no metadata for gorm.io/driver/
+	snapshot=7
+
+[Info  - 8:19:41 PM] 2022/03/03 20:19:41 go/packages.Load
+	snapshot=7
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 8:19:41 PM] 2022/03/03 20:19:41 go/packages.Load
+	snapshot=7
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 8:19:42 PM] 2022/03/03 20:19:42 go/packages.Load
+	snapshot=10
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 8:19:42 PM] 2022/03/03 20:19:42 go/packages.Load
+	snapshot=10
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 8:19:42 PM] 2022/03/03 20:19:42 github.com/batt0s/goshort/shortener: no dep handle for gorm.io/driver/pos: no metadata for gorm.io/driver/pos
+	snapshot=10
+
+[Info  - 8:19:42 PM] 2022/03/03 20:19:42 go/packages.Load
+	snapshot=11
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Error - 8:19:42 PM] 2022/03/03 20:19:42 github.com/batt0s/goshort/shortener: no dep handle for gorm.io/driver/post: no metadata for gorm.io/driver/post
+	snapshot=11
+
+[Info  - 8:19:42 PM] 2022/03/03 20:19:42 go/packages.Load
+	snapshot=11
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 8:19:42 PM] 2022/03/03 20:19:42 go/packages.Load
+	snapshot=12
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 8:19:42 PM] 2022/03/03 20:19:42 go/packages.Load
+	snapshot=12
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 8:19:42 PM] 2022/03/03 20:19:42 github.com/batt0s/goshort/shortener: no dep handle for gorm.io/driver/postg: no metadata for gorm.io/driver/postg
+	snapshot=12
+
+[Info  - 8:19:42 PM] 2022/03/03 20:19:42 go/packages.Load
+	snapshot=12
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 8:19:42 PM] 2022/03/03 20:19:42 go/packages.Load
+	snapshot=12
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 go/packages.Load
+	snapshot=15
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 go/packages.Load
+	snapshot=15
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 falling back to safe trimming due to type errors: [/usr/lib/go/src/os/user/cgo_lookup_unix.go:200:19: int not declared by package C /usr/lib/go/src/os/user/cgo_lookup_unix.go:203:16: bufferKind(C._SC_GETPW_R_SIZE_MAX) (value of type bufferKind) is not constant /usr/lib/go/src/os/user/cgo_lookup_unix.go:204:16: bufferKind(C._SC_GETGR_R_SIZE_MAX) (value of type bufferKind) is not constant] or still-missing identifiers: map[]
+	package="os/user"
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 discovered missing identifiers: map[options:true]
+	package="golang.org/x/text/unicode/bidi"
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 discovered missing identifiers: map[matcher:true]
+	package="golang.org/x/text/language"
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 go/packages.Load
+	snapshot=15
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 go/packages.Load
+	snapshot=15
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 discovered missing identifiers: map[pguint32:true]
+	package="github.com/jackc/pgtype"
+
+[Info  - 8:19:44 PM] 2022/03/03 20:19:44 discovered missing identifiers: map[connector:true]
+	package="github.com/jackc/pgx/v4/stdlib"
+
+[Info  - 8:19:45 PM] 2022/03/03 20:19:45 go/packages.Load
+	snapshot=15
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 8:19:45 PM] 2022/03/03 20:19:45 go/packages.Load
+	snapshot=15
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Error - 8:19:45 PM] 2022/03/03 20:19:45 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:19:49 PM] 2022/03/03 20:19:49 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:19:51 PM] 2022/03/03 20:19:51 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:19:51 PM] 2022/03/03 20:19:51 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:19:51 PM] 2022/03/03 20:19:51 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:19:52 PM] 2022/03/03 20:19:52 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:19:56 PM] 2022/03/03 20:19:56 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:19:57 PM] 2022/03/03 20:19:57 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:19:58 PM] 2022/03/03 20:19:58 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:20:08 PM] 2022/03/03 20:20:08 background imports cache refresh starting
+
+[Info  - 8:20:08 PM] 2022/03/03 20:20:08 background refresh finished after 24.864671ms
+
+[Error - 8:20:21 PM] 2022/03/03 20:20:21 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:22 PM] 2022/03/03 20:20:22 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:29 PM] 2022/03/03 20:20:29 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:30 PM] 2022/03/03 20:20:30 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:31 PM] 2022/03/03 20:20:31 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:32 PM] 2022/03/03 20:20:32 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:32 PM] 2022/03/03 20:20:32 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:33 PM] 2022/03/03 20:20:33 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:34 PM] 2022/03/03 20:20:34 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:35 PM] 2022/03/03 20:20:35 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:38 PM] 2022/03/03 20:20:38 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:39 PM] 2022/03/03 20:20:39 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:40 PM] 2022/03/03 20:20:40 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:43 PM] 2022/03/03 20:20:43 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:43 PM] 2022/03/03 20:20:43 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:49 PM] 2022/03/03 20:20:49 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:50 PM] 2022/03/03 20:20:50 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:20:51 PM] 2022/03/03 20:20:51 background imports cache refresh starting
+
+[Info  - 8:20:51 PM] 2022/03/03 20:20:51 background refresh finished after 23.162359ms
+
+[Error - 8:20:51 PM] 2022/03/03 20:20:51 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:58 PM] 2022/03/03 20:20:58 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:58 PM] 2022/03/03 20:20:58 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:20:59 PM] 2022/03/03 20:20:59 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:03 PM] 2022/03/03 20:21:03 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:03 PM] 2022/03/03 20:21:03 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:04 PM] 2022/03/03 20:21:04 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:05 PM] 2022/03/03 20:21:05 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:05 PM] 2022/03/03 20:21:05 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:06 PM] 2022/03/03 20:21:06 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:10 PM] 2022/03/03 20:21:10 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:11 PM] 2022/03/03 20:21:11 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:12 PM] 2022/03/03 20:21:12 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:16 PM] 2022/03/03 20:21:16 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:16 PM] 2022/03/03 20:21:16 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:17 PM] 2022/03/03 20:21:17 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:18 PM] 2022/03/03 20:21:18 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:20 PM] 2022/03/03 20:21:20 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:20 PM] 2022/03/03 20:21:20 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:21:21 PM] 2022/03/03 20:21:21 background imports cache refresh starting
+
+[Info  - 8:21:21 PM] 2022/03/03 20:21:21 background refresh finished after 22.00007ms
+
+[Error - 8:21:28 PM] 2022/03/03 20:21:28 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 8:21:28 PM] 2022/03/03 20:21:28 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/db.go:12:34: string literal not terminated (and 19 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/db.go"
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/db.go:12:34: string literal not terminated (and 19 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/db.go"
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/db.go
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/db.go:12:34: string literal not terminated (and 19 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/db.go"
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:29 PM] 2022/03/03 20:21:29 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/db.go
+
+[Error - 8:21:30 PM] 2022/03/03 20:21:30 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:30 PM] 2022/03/03 20:21:30 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:31 PM] 2022/03/03 20:21:31 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:31 PM] 2022/03/03 20:21:31 unable to compute positions for type errors: no parsed file for  in github.com/batt0s/goshort/shortener
+	package="github.com/batt0s/goshort/shortener"
+
+[Error - 8:21:31 PM] 2022/03/03 20:21:31 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/db.go:12:22: expected operand, found ',' (and 15 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/db.go"
+
+[Error - 8:21:31 PM] 2022/03/03 20:21:31 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:31 PM] 2022/03/03 20:21:31 DocumentSymbols failed: invalid pos
+	URI=file:///home/battos/Desktop/GoURLShrotener/shortener/db.go
+
+[Error - 8:21:33 PM] 2022/03/03 20:21:33 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:35 PM] 2022/03/03 20:21:35 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:36 PM] 2022/03/03 20:21:36 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:37 PM] 2022/03/03 20:21:37 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:21:39 PM] 2022/03/03 20:21:39 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+go: downloading github.com/lib/pq v1.10.2
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:21:52 PM] 2022/03/03 20:21:52 background imports cache refresh starting
+
+[Info  - 8:21:52 PM] 2022/03/03 20:21:52 background refresh finished after 43.265193ms
+
+[Error - 8:24:24 PM] 2022/03/03 20:24:24 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+go: downloading github.com/lib/pq v1.10.2
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:24:24 PM] 2022/03/03 20:24:24 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+go: downloading github.com/lib/pq v1.10.2
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:24:25 PM] 2022/03/03 20:24:25 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+go: downloading github.com/lib/pq v1.10.2
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:24:26 PM] 2022/03/03 20:24:26 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:24:40 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 8:24:40 PM] 2022/03/03 20:24:40 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:24:42 PM] 2022/03/03 20:24:42 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:24:53 PM] 2022/03/03 20:24:53 background imports cache refresh starting
+
+[Info  - 8:24:53 PM] 2022/03/03 20:24:53 background refresh finished after 50.208721ms
+
+[Error - 8:32:57 PM] 2022/03/03 20:32:57 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:32:58 PM] 2022/03/03 20:32:58 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:32:59 PM] 2022/03/03 20:32:59 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:00 PM] 2022/03/03 20:33:00 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:01 PM] 2022/03/03 20:33:01 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:02 PM] 2022/03/03 20:33:02 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:02 PM] 2022/03/03 20:33:02 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:02 PM] 2022/03/03 20:33:02 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:03 PM] 2022/03/03 20:33:03 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:04 PM] 2022/03/03 20:33:04 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:04 PM] 2022/03/03 20:33:04 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:33:06 PM] 2022/03/03 20:33:06 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:33:21 PM] 2022/03/03 20:33:21 background imports cache refresh starting
+
+[Info  - 8:33:21 PM] 2022/03/03 20:33:21 background refresh finished after 41.673537ms
+
+[Error - 8:36:27 PM] 2022/03/03 20:36:27 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:36:27 PM] 2022/03/03 20:36:27 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:36:28 PM] 2022/03/03 20:36:28 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:36:29 PM] 2022/03/03 20:36:29 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:36:30 PM] 2022/03/03 20:36:30 tidy: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: downloading github.com/Masterminds/semver/v3 v3.1.1
+go: downloading github.com/cockroachdb/apd v1.1.0
+go: downloading github.com/gofrs/uuid v4.0.0+incompatible
+go: downloading github.com/shopspring/decimal v1.2.0
+go: downloading github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65
+go: downloading github.com/lib/pq v1.10.2
+go: downloading gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/cockroachdb/apd: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/gofrs/uuid: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 tested by
+	github.com/jackc/pgx/v4.test imports
+	github.com/shopspring/decimal: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4/stdlib tested by
+	github.com/jackc/pgx/v4/stdlib.test imports
+	github.com/Masterminds/semver/v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/sqlite tested by
+	gorm.io/driver/sqlite.test imports
+	github.com/stretchr/testify/assert imports
+	gopkg.in/yaml.v3: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgconn tested by
+	github.com/jackc/pgconn.test imports
+	github.com/jackc/pgmock: module lookup disabled by GOPROXY=off
+github.com/batt0s/goshort/shortener imports
+	gorm.io/driver/postgres imports
+	github.com/jackc/pgx/v4 imports
+	github.com/jackc/pgtype tested by
+	github.com/jackc/pgtype.test imports
+	github.com/lib/pq: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:36:54 PM] 2022/03/03 20:36:54 background imports cache refresh starting
+
+[Info  - 8:36:54 PM] 2022/03/03 20:36:54 background refresh finished after 38.376465ms
+

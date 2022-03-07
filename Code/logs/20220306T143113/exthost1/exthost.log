@@ -1,0 +1,74 @@
+[2022-03-06 14:31:17.543] [exthost] [info] Extension host with pid 15609 started
+[2022-03-06 14:31:17.543] [exthost] [info] Skipping acquiring lock for /home/battos/.config/Code/User/workspaceStorage/0a89653c241d1b3bad915064383db0b9.
+[2022-03-06 14:31:17.921] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-03-06 14:31:17.956] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onLanguage:html'
+[2022-03-06 14:31:18.267] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-03-06 14:31:18.284] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-06 14:31:18.291] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-06 14:31:18.295] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-06 14:31:18.300] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: true, activationEvent: '*'
+[2022-03-06 14:31:18.576] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-03-06 14:31:18.838] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-03-06 14:31:18.918] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-03-06 14:31:21.884] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-06 14:31:21.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-06 14:31:22.025] [exthost] [info] Eager extensions activated
+[2022-03-06 14:31:22.251] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-06 14:31:22.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-06 14:31:22.270] [exthost] [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-06 14:31:22.289] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-06 14:44:14.772] [exthost] [error] [golang.go] provider FAILED
+[2022-03-06 14:44:14.772] [exthost] [error] Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-06 15:57:18.016] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-06 15:57:18.018] [exthost] [error] TypeError: Cannot read property 'find' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:187362)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-06 16:59:00.309] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-03-06 16:59:07.402] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-03-06 16:59:07.531] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-03-06 17:03:22.532] [exthost] [error] [golang.go] provider FAILED
+[2022-03-06 17:03:22.532] [exthost] [error] Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-06 17:37:37.040] [exthost] [error] [golang.go] provider FAILED
+[2022-03-06 17:37:37.040] [exthost] [error] Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-06 18:06:40.972] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-06 18:06:41.048] [exthost] [info] Extension host with pid 15609 exiting with code 0

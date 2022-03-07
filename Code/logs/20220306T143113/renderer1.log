@@ -1,0 +1,33 @@
+[2022-03-06 14:31:18.614] [renderer1] [error] [Extension Host] (node:15609) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-03-06 15:57:18.021] [renderer1] [error] Cannot read property 'find' of undefined: TypeError: Cannot read property 'find' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:187362)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)

@@ -1,0 +1,242 @@
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:31:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:31:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:70:32 shortened.originURL undefined (type Shortened has no field or method originURL) (compile)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:36:25 unknown field originURL in struct literal (compile)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:36:45 unknown field shortenedUrl in struct literal (compile)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:70:32 shortened.originURL undefined (type Shortened has no field or method originURL) (compile)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:31:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:31:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:31:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:59:2 undeclared name: shorturl (compile)
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:59:38 shortened.ShortUrl undefined (type string has no field or method ShortUrl) (compile)
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:60:60 undeclared name: shorturl (compile)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:59:39 shortened.ShortUrl undefined (type string has no field or method ShortUrl) (compile)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:23 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:20:48 expected ), found '&' (compile)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:23 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:23 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/helpers.go:23:2 should use 'return err == nil' instead of 'if err != nil { return false }; return true' (S1008)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:22:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener
+/home/battos/Desktop/GoURLShrotener>Finished running tool: /home/battos/go/bin/staticcheck
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener
+/home/battos/Desktop/GoURLShrotener>Finished running tool: /home/battos/go/bin/staticcheck
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:23 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:23 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:23 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:60:13 invalid operation: mismatched types string and *Shortened (compile)
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:62:60 cannot use shorturl (variable of type *Shortened) as string value in map literal (compile)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:14 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:30:18 possible nil pointer dereference (SA5011)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:14 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:60:13 invalid operation: mismatched types string and *Shortened (compile)
+/home/battos/Desktop/GoURLShrotener/shortener/handlers.go:62:60 cannot use shorturl (variable of type *Shortened) as string value in map literal (compile)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+

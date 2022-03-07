@@ -1,0 +1,9 @@
+[2022-03-05 13:00:28.022] [renderer1] [info] IExtensionHostStarter.start() took 68 ms.
+[2022-03-05 13:00:28.706] [renderer1] [error] [Extension Host] (node:8164) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-03-05 14:38:40.171] [renderer1] [info] The pty host became responsive again
+[2022-03-05 15:45:51.819] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)

@@ -1,0 +1,31 @@
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:14:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener
+/home/battos/Desktop/GoURLShrotener>Finished running tool: /home/battos/go/bin/staticcheck
+

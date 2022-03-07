@@ -1,0 +1,8 @@
+[2022-03-01 20:27:23.532] [sharedprocess] [info] Starting worker process with pid 2928 (type: fileWatcher, window: 1).
+[2022-03-01 20:27:26.512] [sharedprocess] [info] Getting Manifest... ms-vsliveshare.vsliveshare
+[2022-03-01 20:27:27.608] [sharedprocess] [info] Installing extension: ms-vsliveshare.vsliveshare
+[2022-03-01 20:27:39.042] [sharedprocess] [info] Downloaded extension: ms-vsliveshare.vsliveshare /home/battos/.config/Code/CachedExtensionVSIXs/ms-vsliveshare.vsliveshare-1.0.5418
+[2022-03-01 20:27:43.690] [sharedprocess] [info] Extracted extension to /home/battos/.vscode/extensions/.798c4f9a-fecd-484b-a7a7-56d95e74110b: ms-vsliveshare.vsliveshare
+[2022-03-01 20:27:43.720] [sharedprocess] [info] Renamed to /home/battos/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5418
+[2022-03-01 20:27:43.727] [sharedprocess] [info] Extracting completed. ms-vsliveshare.vsliveshare
+[2022-03-01 20:27:43.746] [sharedprocess] [info] Extension installed successfully: ms-vsliveshare.vsliveshare

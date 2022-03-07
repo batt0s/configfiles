@@ -1,0 +1,11 @@
+[2022-03-02 21:12:26.251] [main] [info] update#setState idle
+[2022-03-02 21:12:26.350] [main] [info] ExtensionHostStarterWorker created
+[2022-03-02 21:12:27.966] [main] [info] Starting extension host with pid 20066 (fork() took 18 ms).
+[2022-03-02 21:12:27.967] [main] [info] ExtensionHostStarterWorker.start() took 21 ms.
+[2022-03-02 21:12:56.252] [main] [info] update#setState checking for updates
+[2022-03-02 21:12:56.387] [main] [info] update#setState idle
+[2022-03-02 21:57:28.987] [main] [error] CodeWindow: detected unresponsive
+[2022-03-02 22:12:56.255] [main] [info] update#setState checking for updates
+[2022-03-02 22:12:57.325] [main] [info] update#setState idle
+[2022-03-02 22:36:40.340] [main] [info] Waiting for extension host with pid 20066 to exit.
+[2022-03-02 22:36:40.414] [main] [info] Extension host with pid 20066 exited with code: 0, signal: null.

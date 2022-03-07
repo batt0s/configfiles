@@ -1,0 +1,20 @@
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+

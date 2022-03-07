@@ -1,0 +1,39 @@
+[2022-03-05 13:00:29.094] [exthost] [info] Extension host with pid 8164 started
+[2022-03-05 13:00:29.094] [exthost] [info] Skipping acquiring lock for /home/battos/.config/Code/User/workspaceStorage/0a89653c241d1b3bad915064383db0b9.
+[2022-03-05 13:00:29.236] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2022-03-05 13:00:29.337] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-03-05 13:00:29.357] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-05 13:00:29.372] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-05 13:00:29.376] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: true, activationEvent: '*'
+[2022-03-05 13:00:29.634] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-03-05 13:00:29.961] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-03-05 13:00:32.173] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-05 13:00:32.204] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-05 13:00:33.584] [exthost] [info] Eager extensions activated
+[2022-03-05 13:00:33.635] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-05 13:00:33.644] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-05 13:00:33.648] [exthost] [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-05 13:00:33.672] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-05 14:51:57.618] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onView:dockerContainers'
+[2022-03-05 15:30:12.588] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+[2022-03-05 15:32:19.613] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 436
+[2022-03-05 15:33:14.448] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 436
+[2022-03-05 15:33:42.972] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 436
+[2022-03-05 15:45:51.806] [exthost] [error] [golang.go] provider FAILED
+[2022-03-05 15:45:51.813] [exthost] [error] Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-03-05 15:59:06.256] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-05 15:59:06.339] [exthost] [error] Canceled: Canceled
+	at Object.F [as canceled] (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1172)
+	at i._remoteCall (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13875)
+	at Proxy.g.<computed>.M.charCodeAt.g.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:10283)
+	at T.showMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:138146)
+	at Object.showErrorMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:107:39535)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:930169
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async u._executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:30224) git.commit {"value":"vscode.git","_lower":"vscode.git"}
+[2022-03-05 15:59:06.350] [exthost] [info] Extension host with pid 8164 exiting with code 0

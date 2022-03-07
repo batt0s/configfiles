@@ -1,0 +1,44 @@
+[2022-02-26 20:08:15.017] [renderer1] [info] IExtensionHostStarter.start() took 423 ms.
+[2022-02-26 20:08:15.246] [renderer1] [error] [Extension Host] (node:5275) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-02-26 20:40:14.645] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-02-26 20:40:34.921] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-02-26 20:40:46.913] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-02-26 20:40:54.248] [renderer1] [warning] {"name":"Error","message":"20:48: expected ), found '&'"}
+[2022-02-26 20:46:39.151] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-02-26 20:53:25.284] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-02-26 21:00:33.982] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-02-26 21:02:56.942] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2022-02-26 21:40:35.454] [renderer1] [error] no object found for ident shorturl: no object found: Error: no object found for ident shorturl: no object found
+	at handleResponse (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/battos/.vscode/extensions/golang.go-0.31.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)

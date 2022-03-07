@@ -1,0 +1,460 @@
+[Info  - 4:23:25 PM] 2022/03/05 16:23:25 go env for /home/battos/Desktop/GoURLShrotener
+(root /home/battos/Desktop/GoURLShrotener)
+(go version go version go1.17.7 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOPROXY=https://proxy.golang.org,direct
+GOPRIVATE=
+GOINSECURE=
+GOMODCACHE=/home/battos/go/pkg/mod
+GONOPROXY=
+GOROOT=/usr/lib/go
+GO111MODULE=
+GOSUMDB=sum.golang.org
+GONOSUMDB=
+GOCACHE=/home/battos/.cache/go-build
+GOFLAGS=
+GOMOD=/home/battos/Desktop/GoURLShrotener/go.mod
+GOPATH=/home/battos/go
+
+
+[Info  - 4:23:25 PM] 2022/03/05 16:23:25 go/packages.Load
+	snapshot=0
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[builtin github.com/batt0s/goshort/...]
+	packages=3
+
+[Error - 4:23:25 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 4:23:26 PM] 2022/03/05 16:23:26 falling back to safe trimming due to type errors: [/usr/lib/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/lib/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 4:23:26 PM] 2022/03/05 16:23:26 falling back to safe trimming due to type errors: [/usr/lib/go/src/os/user/cgo_lookup_unix.go:200:19: int not declared by package C /usr/lib/go/src/os/user/cgo_lookup_unix.go:203:16: bufferKind(C._SC_GETPW_R_SIZE_MAX) (value of type bufferKind) is not constant /usr/lib/go/src/os/user/cgo_lookup_unix.go:204:16: bufferKind(C._SC_GETGR_R_SIZE_MAX) (value of type bufferKind) is not constant] or still-missing identifiers: map[]
+	package="os/user"
+
+[Info  - 4:23:26 PM] 2022/03/05 16:23:26 discovered missing identifiers: map[options:true]
+	package="golang.org/x/text/unicode/bidi"
+
+[Info  - 4:23:26 PM] 2022/03/05 16:23:26 falling back to safe trimming due to type errors: [/home/battos/Desktop/GoURLShrotener/vendor/github.com/mattn/go-sqlite3/error.go:22:19: int not declared by package C /home/battos/Desktop/GoURLShrotener/vendor/github.com/mattn/go-sqlite3/sqlite3_context.go:38:22: sqlite3_context not declared by package C] or still-missing identifiers: map[]
+	package="github.com/mattn/go-sqlite3"
+
+[Info  - 4:23:26 PM] 2022/03/05 16:23:26 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 4:23:26 PM] 2022/03/05 16:23:26 discovered missing identifiers: map[matcher:true]
+	package="golang.org/x/text/language"
+
+[Info  - 4:23:26 PM] 2022/03/05 16:23:26 discovered missing identifiers: map[pguint32:true]
+	package="github.com/jackc/pgtype"
+
+[Info  - 4:23:26 PM] 2022/03/05 16:23:26 discovered missing identifiers: map[connector:true]
+	package="github.com/jackc/pgx/v4/stdlib"
+
+[Info  - 4:23:55 PM] 2022/03/05 16:23:55 background imports cache refresh starting
+
+[Info  - 4:23:55 PM] 2022/03/05 16:23:55 background refresh finished after 22.395605ms
+
+[Error - 4:24:10 PM] 2022/03/05 16:24:10 go/packages.Load: err: exit status 1: stderr: go: inconsistent vendoring in /home/battos/Desktop/GoURLShrotener:
+	github.com/lib/pq@v1.10.4: is explicitly required in go.mod, but not marked as explicit in vendor/modules.txt
+
+	To ignore the vendor directory, use -mod=readonly or -mod=mod.
+	To sync the vendor directory, run:
+		go mod vendor
+
+	snapshot=2
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[builtin github.com/batt0s/goshort/...]
+	packages=0
+
+[Error - 4:24:10 PM] 2022/03/05 16:24:10 initial workspace load failed: err: exit status 1: stderr: go: inconsistent vendoring in /home/battos/Desktop/GoURLShrotener:
+	github.com/lib/pq@v1.10.4: is explicitly required in go.mod, but not marked as explicit in vendor/modules.txt
+
+	To ignore the vendor directory, use -mod=readonly or -mod=mod.
+	To sync the vendor directory, run:
+		go mod vendor
+: packages.Load error
+
+[Error - 4:24:10 PM] 2022/03/05 16:24:10 workspace packages: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: inconsistent vendoring in /home/battos/Desktop/GoURLShrotener:
+	github.com/lib/pq@v1.10.4: is explicitly required in go.mod, but not marked as explicit in vendor/modules.txt
+
+	To ignore the vendor directory, use -mod=readonly or -mod=mod.
+	To sync the vendor directory, run:
+		go mod vendor
+: packages.Load error
+
+[Error - 4:24:10 PM] 2022/03/05 16:24:10 errors loading workspace: err: exit status 1: stderr: go: inconsistent vendoring in /home/battos/Desktop/GoURLShrotener:
+	github.com/lib/pq@v1.10.4: is explicitly required in go.mod, but not marked as explicit in vendor/modules.txt
+
+	To ignore the vendor directory, use -mod=readonly or -mod=mod.
+	To sync the vendor directory, run:
+		go mod vendor
+: packages.Load error
+	snapshot=2
+	directory=file:///home/battos/Desktop/GoURLShrotener
+
+[Error - 4:24:18 PM] 2022/03/05 16:24:18 workspace packages: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: inconsistent vendoring in /home/battos/Desktop/GoURLShrotener:
+	github.com/lib/pq@v1.10.4: is explicitly required in go.mod, but not marked as explicit in vendor/modules.txt
+
+	To ignore the vendor directory, use -mod=readonly or -mod=mod.
+	To sync the vendor directory, run:
+		go mod vendor
+: packages.Load error
+
+[Error - 4:24:18 PM] 2022/03/05 16:24:18 DocumentSymbols failed: getting file for DocumentSymbols: no packages for non-Go file file:///home/battos/Desktop/GoURLShrotener/go.mod (go.mod)
+	URI=file:///home/battos/Desktop/GoURLShrotener/go.mod
+
+[Error - 4:24:18 PM] 2022/03/05 16:24:18 workspace packages: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: inconsistent vendoring in /home/battos/Desktop/GoURLShrotener:
+	github.com/lib/pq@v1.10.4: is explicitly required in go.mod, but not marked as explicit in vendor/modules.txt
+
+	To ignore the vendor directory, use -mod=readonly or -mod=mod.
+	To sync the vendor directory, run:
+		go mod vendor
+: packages.Load error
+
+[Error - 4:24:18 PM] 2022/03/05 16:24:18 errors loading workspace: err: exit status 1: stderr: go: inconsistent vendoring in /home/battos/Desktop/GoURLShrotener:
+	github.com/lib/pq@v1.10.4: is explicitly required in go.mod, but not marked as explicit in vendor/modules.txt
+
+	To ignore the vendor directory, use -mod=readonly or -mod=mod.
+	To sync the vendor directory, run:
+		go mod vendor
+: packages.Load error
+	snapshot=3
+	directory=file:///home/battos/Desktop/GoURLShrotener
+
+[Error - 4:24:20 PM] 2022/03/05 16:24:20 workspace packages: diagnosing file:///home/battos/Desktop/GoURLShrotener/go.mod: err: exit status 1: stderr: go: inconsistent vendoring in /home/battos/Desktop/GoURLShrotener:
+	github.com/lib/pq@v1.10.4: is explicitly required in go.mod, but not marked as explicit in vendor/modules.txt
+
+	To ignore the vendor directory, use -mod=readonly or -mod=mod.
+	To sync the vendor directory, run:
+		go mod vendor
+: packages.Load error
+
+[Info  - 4:24:28 PM] 2022/03/05 16:24:28 go/packages.Load
+	snapshot=4
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[builtin github.com/batt0s/goshort/...]
+	packages=3
+
+[Error - 4:25:07 PM] 2022/03/05 16:25:07 no completions found: this is a definition of package _ ("gorm.io/driver/postgres")
+	position={6 2}
+
+[Info  - 4:25:13 PM] 2022/03/05 16:25:13 go/packages.Load
+	snapshot=14
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[builtin github.com/batt0s/goshort/...]
+	packages=3
+
+[Info  - 4:25:18 PM] 2022/03/05 16:25:18 background imports cache refresh starting
+
+[Info  - 4:25:18 PM] 2022/03/05 16:25:18 background refresh finished after 3.101423ms
+
+[Info  - 4:26:31 PM] 2022/03/05 16:26:31 go/packages.Load
+	snapshot=16
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:31 PM] 2022/03/05 16:26:31 go/packages.Load
+	snapshot=16
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:31 PM] 2022/03/05 16:26:31 imports fixes: AllImportsFixes: /home/battos/Desktop/GoURLShrotener/shortener/db.go:8:4: invalid import path: "" (and 19 more errors)
+	file="/home/battos/Desktop/GoURLShrotener/shortener/db.go"
+
+[Info  - 4:26:31 PM] 2022/03/05 16:26:31 go/packages.Load
+	snapshot=16
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 4:26:31 PM] 2022/03/05 16:26:31 go/packages.Load
+	snapshot=16
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 4:26:31 PM] 2022/03/05 16:26:31 go/packages.Load
+	snapshot=17
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:31 PM] 2022/03/05 16:26:31 go/packages.Load
+	snapshot=17
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:31 PM] 2022/03/05 16:26:31 github.com/batt0s/goshort/shortener: no dep handle for g: no metadata for g
+	snapshot=17
+
+[Info  - 4:26:32 PM] 2022/03/05 16:26:32 go/packages.Load
+	snapshot=19
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:32 PM] 2022/03/05 16:26:32 go/packages.Load
+	snapshot=19
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:32 PM] 2022/03/05 16:26:32 github.com/batt0s/goshort/shortener: no dep handle for git: no metadata for git
+	snapshot=19
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=22
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=22
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:33 PM] 2022/03/05 16:26:33 github.com/batt0s/goshort/shortener: no dep handle for github: no metadata for github
+	snapshot=22
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=23
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=23
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:33 PM] 2022/03/05 16:26:33 github.com/batt0s/goshort/shortener: no dep handle for github.: no metadata for github.
+	snapshot=23
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=25
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=25
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:33 PM] 2022/03/05 16:26:33 github.com/batt0s/goshort/shortener: no dep handle for github.co: no metadata for github.co
+	snapshot=25
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=25
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=25
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=26
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=26
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:33 PM] 2022/03/05 16:26:33 github.com/batt0s/goshort/shortener: no dep handle for github.com: no metadata for github.com
+	snapshot=26
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=26
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:33 PM] 2022/03/05 16:26:33 go/packages.Load
+	snapshot=26
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:26:34 PM] 2022/03/05 16:26:34 go/packages.Load
+	snapshot=27
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Error - 4:26:34 PM] 2022/03/05 16:26:34 github.com/batt0s/goshort/shortener: no dep handle for github.com/: no metadata for github.com/
+	snapshot=27
+
+[Info  - 4:26:34 PM] 2022/03/05 16:26:34 go/packages.Load
+	snapshot=27
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:26:34 PM] 2022/03/05 16:26:34 go/packages.Load
+	snapshot=27
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:34 PM] 2022/03/05 16:26:34 go/packages.Load
+	snapshot=27
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:26:34 PM] 2022/03/05 16:26:34 go/packages.Load
+	snapshot=27
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 4:26:34 PM] 2022/03/05 16:26:34 go/packages.Load
+	snapshot=27
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 4:26:35 PM] 2022/03/05 16:26:35 go/packages.Load
+	snapshot=29
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:35 PM] 2022/03/05 16:26:35 go/packages.Load
+	snapshot=29
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:35 PM] 2022/03/05 16:26:35 github.com/batt0s/goshort/shortener: no dep handle for github.com/li: no metadata for github.com/li
+	snapshot=29
+
+[Info  - 4:26:35 PM] 2022/03/05 16:26:35 go/packages.Load
+	snapshot=29
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:35 PM] 2022/03/05 16:26:35 go/packages.Load
+	snapshot=29
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:26:35 PM] 2022/03/05 16:26:35 go/packages.Load
+	snapshot=30
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:35 PM] 2022/03/05 16:26:35 go/packages.Load
+	snapshot=30
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:35 PM] 2022/03/05 16:26:35 github.com/batt0s/goshort/shortener: no dep handle for github.com/lib: no metadata for github.com/lib
+	snapshot=30
+
+[Info  - 4:26:35 PM] 2022/03/05 16:26:35 go/packages.Load
+	snapshot=30
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:35 PM] 2022/03/05 16:26:35 go/packages.Load
+	snapshot=30
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:26:36 PM] 2022/03/05 16:26:36 go/packages.Load
+	snapshot=31
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:36 PM] 2022/03/05 16:26:36 go/packages.Load
+	snapshot=31
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:36 PM] 2022/03/05 16:26:36 github.com/batt0s/goshort/shortener: no dep handle for github.com/lib/: no metadata for github.com/lib/
+	snapshot=31
+
+[Info  - 4:26:36 PM] 2022/03/05 16:26:36 go/packages.Load
+	snapshot=31
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Info  - 4:26:36 PM] 2022/03/05 16:26:36 go/packages.Load
+	snapshot=31
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:36 PM] 2022/03/05 16:26:36 go/packages.Load
+	snapshot=31
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 4:26:36 PM] 2022/03/05 16:26:36 go/packages.Load
+	snapshot=31
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Info  - 4:26:37 PM] 2022/03/05 16:26:37 go/packages.Load
+	snapshot=33
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[file=/home/battos/Desktop/GoURLShrotener/shortener/db.go]
+	packages=1
+
+[Info  - 4:26:37 PM] 2022/03/05 16:26:37 go/packages.Load
+	snapshot=33
+	package="github.com/batt0s/goshort/shortener"
+	files=[/home/battos/Desktop/GoURLShrotener/shortener/db.go /home/battos/Desktop/GoURLShrotener/shortener/handlers.go /home/battos/Desktop/GoURLShrotener/shortener/helpers.go /home/battos/Desktop/GoURLShrotener/shortener/shortener.go]
+
+[Error - 4:26:37 PM] 2022/03/05 16:26:37 github.com/batt0s/goshort/shortener: no dep handle for github.com/lib/pq: no metadata for github.com/lib/pq
+	snapshot=33
+
+[Info  - 4:26:37 PM] 2022/03/05 16:26:37 go/packages.Load
+	snapshot=33
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[github.com/batt0s/goshort]
+	packages=1
+
+[Info  - 4:26:37 PM] 2022/03/05 16:26:37 go/packages.Load
+	snapshot=33
+	package="github.com/batt0s/goshort"
+	files=[/home/battos/Desktop/GoURLShrotener/main.go]
+
+[Error - 4:26:38 PM] 2022/03/05 16:26:38 github.com/batt0s/goshort/shortener: no dep handle for github.com/lib/pq: no metadata for github.com/lib/pq
+	snapshot=34
+
+[Error - 4:26:38 PM] 2022/03/05 16:26:38 github.com/batt0s/goshort/shortener: no dep handle for github.com/lib/pq: no metadata for github.com/lib/pq
+	snapshot=35
+
+[Error - 4:26:39 PM] 2022/03/05 16:26:39 github.com/batt0s/goshort/shortener: no dep handle for github.com/lib/pq: no metadata for github.com/lib/pq
+	snapshot=36
+
+[Info  - 4:26:48 PM] 2022/03/05 16:26:48 background imports cache refresh starting
+
+[Info  - 4:26:48 PM] 2022/03/05 16:26:48 background refresh finished after 2.78769ms
+
+[Info  - 4:27:02 PM] 2022/03/05 16:27:02 go/packages.Load
+	snapshot=38
+	directory=/home/battos/Desktop/GoURLShrotener
+	query=[builtin github.com/batt0s/goshort/...]
+	packages=3
+
+[Info  - 4:27:33 PM] 2022/03/05 16:27:33 background imports cache refresh starting
+
+[Info  - 4:27:33 PM] 2022/03/05 16:27:33 background refresh finished after 3.526134ms
+
+[Info  - 4:28:17 PM] 2022/03/05 16:28:17 background imports cache refresh starting
+
+[Info  - 4:28:17 PM] 2022/03/05 16:28:17 background refresh finished after 3.351598ms
+
+[Info  - 4:29:31 PM] 2022/03/05 16:29:31 background imports cache refresh starting
+
+[Info  - 4:29:31 PM] 2022/03/05 16:29:31 background refresh finished after 3.225742ms
+

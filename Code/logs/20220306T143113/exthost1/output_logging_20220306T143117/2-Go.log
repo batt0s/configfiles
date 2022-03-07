@@ -1,0 +1,257 @@
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:63:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:63:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:70:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:80:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:80:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:21 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:21 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:32 Printf format %v reads arg #1, but call has only 0 args (SA5009)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:63:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:63:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:70:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:80:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:80:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:21 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:21 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:32 Printf format %v reads arg #1, but call has only 0 args (SA5009)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:23:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:63:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:63:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:70:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:80:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:80:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:21 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:21 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:87:32 Printf format %v reads arg #1, but call has only 0 args (SA5009)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener
+/home/battos/Desktop/GoURLShrotener>Finished running tool: /home/battos/go/bin/staticcheck
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:73:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:32 Printf format %v reads arg #1, but call has only 0 args (SA5009)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:73:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:73:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:73:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:73:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:73:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:73:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:73:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:83:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:90:21 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:21 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/db.go:15:5 should omit comparison to bool constant, can be simplified to dev (S1002)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:57 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:57 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:57 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:57 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:57 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:57 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:57 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:57 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener/shortener
+/home/battos/Desktop/GoURLShrotener/shortener>Finished running tool: /home/battos/go/bin/staticcheck
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:24:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:64:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:74:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not be capitalized (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:84:24 error strings should not end with punctuation or a newline (ST1005)
+/home/battos/Desktop/GoURLShrotener/shortener/shortener.go:91:24 error strings should not end with punctuation or a newline (ST1005)
+
+Starting linting the current package at /home/battos/Desktop/GoURLShrotener
+/home/battos/Desktop/GoURLShrotener>Finished running tool: /home/battos/go/bin/staticcheck
+

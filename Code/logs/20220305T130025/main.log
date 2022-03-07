@@ -1,0 +1,8 @@
+[2022-03-05 13:00:25.773] [main] [info] update#setState idle
+[2022-03-05 13:00:25.927] [main] [info] ExtensionHostStarterWorker created
+[2022-03-05 13:00:27.990] [main] [info] Starting extension host with pid 8164 (fork() took 19 ms).
+[2022-03-05 13:00:27.992] [main] [info] ExtensionHostStarterWorker.start() took 26 ms.
+[2022-03-05 13:00:55.781] [main] [info] update#setState checking for updates
+[2022-03-05 13:00:55.801] [main] [info] update#setState available for download
+[2022-03-05 15:59:06.302] [main] [info] Waiting for extension host with pid 8164 to exit.
+[2022-03-05 15:59:06.386] [main] [info] Extension host with pid 8164 exited with code: 0, signal: null.
