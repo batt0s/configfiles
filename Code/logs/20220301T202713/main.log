@@ -1,8 +1,0 @@
-[2022-03-01 20:27:14.016] [main] [info] update#setState idle
-[2022-03-01 20:27:14.148] [main] [info] ExtensionHostStarterWorker created
-[2022-03-01 20:27:15.972] [main] [info] Starting extension host with pid 2449 (fork() took 14 ms).
-[2022-03-01 20:27:15.973] [main] [info] ExtensionHostStarterWorker.start() took 18 ms.
-[2022-03-01 20:27:44.018] [main] [info] update#setState checking for updates
-[2022-03-01 20:27:44.222] [main] [info] update#setState idle
-[2022-03-01 21:02:58.786] [main] [info] Waiting for extension host with pid 2449 to exit.
-[2022-03-01 21:02:58.849] [main] [info] Extension host with pid 2449 exited with code: 0, signal: null.

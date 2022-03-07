@@ -1,9 +1,0 @@
-[2022-03-06 11:57:13.838] [sharedprocess] [info] Starting worker process with pid 2854 (type: fileWatcher, window: 1).
-[2022-03-06 11:57:16.805] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
-[2022-03-06 11:57:17.874] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
-[2022-03-06 11:57:23.134] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/battos/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.2.1020642448
-[2022-03-06 11:57:24.376] [sharedprocess] [info] Extracted extension to /home/battos/.vscode/extensions/.faf85581-3d0d-4f00-b3f2-2dc295148254: ms-toolsai.jupyter
-[2022-03-06 11:57:24.399] [sharedprocess] [info] Renamed to /home/battos/.vscode/extensions/ms-toolsai.jupyter-2022.2.1020642448
-[2022-03-06 11:57:24.408] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
-[2022-03-06 11:57:24.435] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
-[2022-03-06 13:57:10.884] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
