@@ -43,6 +43,11 @@ keys = [
             desc="Restart QTile"
             ),
 
+        Key([mod, "control"], "x",
+            lazy.spawn(os.path.expanduser("~/.config/rofi/powermenu/powermenu.sh")),
+            desc="Power Menu"
+            ),
+
         # Window Controls
         Key([mod], "m",
             lazy.layout.maximize(),
@@ -92,27 +97,37 @@ keys = [
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
 
+    # Toggle between active groups
+    Key([mod], "Right", lazy.screen.next_group(skip_empty=True), desc="Next group (skip empty)"),
+    Key([mod], "Left", lazy.screen.prev_group(skip_empty=True), desc="Prev gorup (skip empty)"),
 
     #Key([], "XFAudioRaiseVolume", lazy.spawn('amixer -c 0 -q set Master 2dB+')),
 
 ]
 
-groups = [Group(i) for i in "123456789"]
+groups = [
+    Group("WWW"),
+    Group("DEV"),
+    Group("SYS"),
+    Group("DOC"),
+    Group("CHAT"),
+    Group("VBOX"),
+    Group("VID"),
+    Group("MUS"),
+    Group("GFX"),
+]
 
-for i in groups:
+keynames = [i for i in "123456789"]
+
+# mod + i, moves screen to groups[i]
+# mod + shift + i, moves screen with active tab to groups[i]
+for keyname, group in zip(keynames, groups):
     keys.extend([
-        # mod1 + letter of group = switch to group
-        Key([mod], i.name, lazy.group[i.name].toscreen(),
-            desc="Switch to group {}".format(i.name)),
-
-        # mod1 + shift + letter of group = switch to & move focused window to group
-        Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True),
-            desc="Switch to & move focused window to group {}".format(i.name)),
-        # Or, use below if you prefer not to switch to that group.
-        # # mod1 + shift + letter of group = move focused window to group
-        # Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
-        #     desc="move focused window to group {}".format(i.name)),
+        Key([mod], keyname, lazy.group[group.name].toscreen()),
+        Key([mod, "shift"], keyname, lazy.window.togroup(group.name)),
     ])
+
+
 
 layouts = [
     # layout.Columns(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=4, margin=5),
@@ -121,7 +136,7 @@ layouts = [
     # layout.Stack(num_stacks=2),
     # layout.Bsp(),
     # layout.Matrix(),
-    # layout.MonadTall(),
+    layout.MonadTall(border_focus=['#d75f5f','#8f3d3d'], border_width=3, margin=3),
     # layout.MonadWide(),
     # layout.RatioTile(),
     layout.Tile(border_focus=['#d75f5f', '#8f3d3d'], border_width=4, margin=5),
@@ -249,7 +264,7 @@ def init_widget_list():
                 background = colors[4],
                 threshold = 70,
                 padding = 5,
-                tag_sensor = "temp1"
+                tag_sensor = "CPU"
                 ),
               widget.TextBox(
                text = '',
