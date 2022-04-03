@@ -105,20 +105,29 @@ keys = [
 
 ]
 
-groups = [
-    Group("WWW"),
-    Group("DEV"),
-    Group("SYS"),
-    Group("DOC"),
-    Group("CHAT"),
-    Group("VBOX"),
-    Group("VID"),
-    Group("MUS"),
-    Group("GFX"),
-]
+# groups = [
+#     Group("WWW"),
+#     Group("DEV"),
+#     Group("SYS"),
+#     Group("DOC"),
+#     Group("CHAT"),
+#     Group("VBOX"),
+#     Group("VID"),
+#     Group("MUS"),
+#     Group("GFX"),
+# ]
 
+groups = []
+group_names = ["WWW","DEV","SYS","DOC","CHAT","VBOX","VID","MUS","GFX"]
 keynames = [i for i in "123456789"]
-
+group_labels = ["","","","","","","","",""]
+for g in range(len(group_names)):
+    groups.append(
+        Group(
+            name=group_names[g],
+            label=group_labels[g],
+        )
+    )
 # mod + i, moves screen to groups[i]
 # mod + shift + i, moves screen with active tab to groups[i]
 for keyname, group in zip(keynames, groups):
@@ -131,7 +140,7 @@ for keyname, group in zip(keynames, groups):
 
 layouts = [
     # layout.Columns(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=4, margin=5),
-    layout.Max(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=4, margin=5),
+    # layout.Max(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=4, margin=5),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
     # layout.Bsp(),
@@ -143,6 +152,7 @@ layouts = [
     # layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(),
+    layout.Floating(border_focus=['#d75f7f', '#8f3d3d'], border_width=3, margin=3),
 ]
 
 # Prompt
@@ -150,7 +160,8 @@ prompt = "{0}@{1}: ".format(os.environ["USER"], socket.gethostname())
 
 # Colors for widgets
 colors = [#["#282c34", "#282c34"], # panel background
-          ["#0c0c0c", "#0c0c0c"],
+          #["#0c0c0c", "#0c0c0c"],
+          ["#282c34","#282c34"],
           ["#3d3f4b", "#434758"], # background for current screen tab
           ["#ffffff", "#ffffff"], # font color for group names
           ["#ff5555", "#ff5555"], # border line color for current tab
@@ -161,6 +172,22 @@ colors = [#["#282c34", "#282c34"], # panel background
           #["#4f76c7", "#4f76c7"], # color for the 'even widgets'
           ["#e1acff", "#e1acff"], # window name
           ["#ecbbfb", "#ecbbfb"]] # backbround for inactive screens
+
+
+colors2 = {
+    "background": '#181818',
+    "current_line": '#282828',
+    "foreground": '#f8f8f2',
+    "comment": '#535453',
+    "black":   '#181818',
+    "red":     '#ab4642',
+    "green":   '#a1b56c',
+    "yellow":  '#f7ca88',
+    "blue":    '#7cafc2',
+    "magenta": '#ba8baf',
+    "cyan":    '#86c1b9',
+    "white":   '#d8d8d8',
+}
 
 # Default Widget Settings
 widget_defaults = dict(
@@ -173,32 +200,39 @@ extension_defaults = widget_defaults.copy()
 
 def init_widget_list():
     widget_list = [
-            widget.Sep(
-                linewidth = 0,
-                padding = 6,
-                foreground = colors[2],
-                background = colors[0]
-                ),
+            #widget.Sep(
+                #linewidth = 0,
+               # padding = 6,
+              #  foreground = colors[2],
+             #   background = colors[0]
+            #    ),
             widget.GroupBox(
                 font = "Ubuntu Bold",
-                fontsize = 9,
+                fontsize = 22,
                 margin_y = 3,
                 margin_x = 0,
-                padding_y = 5,
-                padding_x = 3,
+                padding = 5,
                 borderwidth = 3,
-                active = colors[2],
-                inactive = colors[7],
-                rounded = False,
+                active = colors2['white'],
+                inactive = colors2['comment'],
+                rounded = True,
+                disable_drag = True,
                 highlight_color = colors[1],
                 highlight_method = "line",
-                this_current_screen_border = colors[6],
+                this_current_screen_border = colors2['red'],
                 this_screen_border = colors [4],
                 other_current_screen_border = colors[6],
                 other_screen_border = colors[4],
-                foreground = colors[2],
-                background = colors[0]
+                background = colors2['background'],
+                block_highlight_text_color = colors2['red']
                 ),
+            widget.TextBox(
+                text = "\uE0B0",
+                background = colors2["current_line"],
+                foreground = colors2['background'],
+                padding=0,
+                fonsize=25
+            ),
             widget.Prompt(
                 prompt = prompt,
                 padding = 10,
@@ -212,7 +246,7 @@ def init_widget_list():
                 background = colors[0]
                 ),
             widget.WindowName(
-                foreground = colors[6],
+                foreground = colors2['red'],
                 background = colors[0],
                 padding = 0
                 ),
@@ -233,13 +267,13 @@ def init_widget_list():
                 padding = 0,
                 fontsize = 37
                 ),
-             widget.Net(
-                interface = "enp2s0",
-                format = '{down} ↓↑ {up}',
-                foreground = colors[2],
-                background = colors[5],
-                padding = 5
-                ),
+             # widget.Net(
+             #    interface = "enp2s0",
+             #    format = '{down} ↓↑ {up}',
+             #    foreground = colors[2],
+             #    background = colors[5],
+             #    padding = 5
+             #    ),
               widget.TextBox(
                 text = '',
                 background = colors[5],
@@ -250,7 +284,8 @@ def init_widget_list():
              widget.CPU(
                 padding = 5,
                 foreground = colors[2],
-                background = colors[4]
+                background = colors[4],
+                format = 'CPU {load_percent}%'
                 ),
              widget.TextBox(
                 text = " 🌡",
@@ -284,7 +319,8 @@ def init_widget_list():
                 foreground = colors[2],
                 background = colors[5],
                 mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(terminal + ' -e htop')},
-                padding = 5
+                padding = 5,
+                format = '{MemUsed:.0f}{mm}',
                 ),
               widget.TextBox(
                 text = '',
@@ -314,12 +350,14 @@ def init_widget_list():
                ),
               widget.Battery(
                       #text = " Power:",
-                      energy_now_file = 'charge_now',
-                      energy_full_file = 'charge_full',
-                      power_now_file = 'current_now',
-                      update_interval = 5,
-                      background = colors[5],
-                      format = ' {percent:2.0%}'
+                energy_now_file = 'charge_now',
+                energy_full_file = 'charge_full',
+                power_now_file = 'current_now',
+                update_interval = 5,
+                background = colors[5],
+                format = ' {percent:2.0%}',
+                low_percentage=0.15,
+                notify_below=0.2
                 ),
               widget.TextBox(
                text = '',

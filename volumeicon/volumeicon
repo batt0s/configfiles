@@ -2,24 +2,24 @@
 card=default
 
 [Notification]
-show_notification=false
-notification_type=0
+show_notification=true
+notification_type=1
 
 [StatusIcon]
 stepsize=5
 onclick=pavucontrol
 theme=Default
 use_panel_specific_icons=false
-lmb_slider=false
-mmb_mute=false
+lmb_slider=true
+mmb_mute=true
 use_horizontal_slider=false
-show_sound_level=false
-use_transparent_background=false
+show_sound_level=true
+use_transparent_background=true
 
 [Hotkeys]
-up_enabled=false
-down_enabled=false
-mute_enabled=false
+up_enabled=true
+down_enabled=true
+mute_enabled=true
 up=XF86AudioRaiseVolume
 down=XF86AudioLowerVolume
 mute=XF86AudioMute

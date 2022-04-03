@@ -47,6 +47,8 @@ class MyVolumeWidget(widget.Volume):
                 f.write(str(self.volume) + "\n")
 
 
+        
+
 VolumeWidget = MyVolumeWidget(
     foreground = colors[2],
     background = colors[4],
