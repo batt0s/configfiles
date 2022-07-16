@@ -9,7 +9,7 @@ keys = [
     # Restart QTile
     Key("M-C-r", lazy.restart()),
     # Kill focused window
-    Key("M-q", lazy.kill()),
+    Key("M-q", lazy.window.kill()),
     # Run terminal (kitty)
     Key("M-<Return>", lazy.spawn("kitty")),
     # Run rofi
