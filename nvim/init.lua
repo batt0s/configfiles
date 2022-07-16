@@ -51,20 +51,29 @@ require("packer").startup(function()
     use "nvim-telescope/telescope.nvim"
     use "vim-airline/vim-airline"
     use "akinsho/bufferline.nvim"
+    -- Autocompletion
+    use "hrsh7th/nvim-cmp"
+    use "hrsh7th/cmp-nvim-lsp"
+    use "hrsh7th/cmp-buffer"
+    use "hrsh7th/cmp-path"
+    use "hrsh7th/cmp-cmdline"
+    use "L3MON4D3/LuaSnip"
+    use "saadparwaiz1/cmp_luasnip"
 end)
 
 require("nvim-tree").setup {}
 require("bufferline").setup {}
 
--- lsp 
+-- lsp and autocompletion
 require("nvim-lsp-installer").setup({
     automatic_installation = true,
 })
 require("lsp_config")
+require("luasnip.loaders.from_vscode").lazy_load()
 vim.api.nvim_exec("autocmd BufWritePre *.go lua vim.lsp.buf.formatting()", false)
 vim.api.nvim_exec("autocmd BufWritePre *.go lua goimports(1000)", false)
-imap(".", ".<C-x><C-o>")
-vim.api.nvim_exec("set completeopt=menu,menuone,noinsert", false)
+vim.opt.completeopt = { "menu" , "menuone" , "noinsert" }
+require("cmp_config")
 
 -- Colorscheme
 require("onedark").setup {
