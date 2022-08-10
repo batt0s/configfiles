@@ -27,8 +27,8 @@ local on_attach = function(client, bufnr)
     buf_nmap("<leader>rn", "<Cmd>lua vim.lsp.buf.rename()<CR>")
     buf_nmap("gr", "<Cmd>lua vim.lsp.buf.references()<CR>")
     buf_nmap("<leader>e", "<Cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>")
-    buf_nmap("[d", "<Cmd>lua vim.lsp.diagnostic.goto_prev()<CR>")
-    buf_nmap("]d", "<Cmd>lua vim.lsp.diagnostic.goto_next()<CR>")
+    buf_nmap("<leader>dp", "<Cmd>lua vim.lsp.diagnostic.goto_prev()<CR>")
+    buf_nmap("<leader>dn", "<Cmd>lua vim.lsp.diagnostic.goto_next()<CR>")
     buf_nmap("<leader>q", "<Cmd>lua vim.lsp.diagnostic.set_loclist()<CR>")
     buf_nmap("<leader>gf", "<Cmd>lua vim.lsp.buf.formatting()<CR>")
 
@@ -48,6 +48,8 @@ local on_attach = function(client, bufnr)
     end
 end
 
+
+-- Go lsp
 lsp.gopls.setup{
     cmd = {"gopls"},
     capabilities = capabilities,
@@ -89,3 +91,23 @@ function goimports(timeoutms)
         vim.lsp.buf.execute_command(action)
     end
 end
+
+-- HTML and JS lsp
+lsp.html.setup {}
+
+-- Python lsp
+lsp.pyright.setup {}
+
+-- C LSP setup
+lsp.clangd.setup {
+    on_attach = on_attach,
+    cmd = {
+        "clangd",
+        "--background-index",
+        "--suggest-missing-includes",
+    },
+    filetypes = {"c","cpp"},
+}
+
+-- Vue LSP 
+lsp.volar.setup {}

@@ -3,11 +3,12 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # Autostart
+exec_always --no-startup-id $HOME/.screenlayout/dsbp.sh
 exec --no-startup-id nitrogen --restore
-exec_always --no-startup-id $HOME/.config/polybar/forest/launch.sh
-exec --no-startup-id $HOME/.config/i3/i3-battery-popup
+# exec_always --no-startup-id $HOME/.config/polybar/forest/launch.sh
 
-set $mod Mod4
+# mod = alt, for super Mod4
+set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -47,10 +48,10 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty
 
 # kill focused window
-bindsym $mod+c kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -nb '#1e1e1e' -sf '#f0f0f0' -sb '#ab4642' -nf '#ab4642'"
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -61,17 +62,13 @@ bindsym $mod+r exec --no-startup-id $HOME/.config/rofi/launchers/text/launcher.s
 
 bindsym $mod+x exec --no-startup-id $HOME/.config/rofi/powermenu/powermenu.sh
 
+bindsym Print exec flameshot gui
+
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
-
-# alternatively, you can use the cursor keys:
-# bindsym $mod+Left focus left
-# bindsym $mod+Down focus down
-# bindsym $mod+Up focus up
-# bindsym $mod+Right focus right
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -79,17 +76,11 @@ bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
-# alternatively, you can use the cursor keys:
-# bindsym $mod+Shift+Left move left
-# bindsym $mod+Shift+Down move down
-# bindsym $mod+Shift+Up move up
-# bindsym $mod+Shift+Right move right
-
 # split in horizontal orientation
-# bindsym  split h
+bindsym $mod+Ctrl+h split h
 
 # split in vertical orientation
-# bindsym split v
+bindsym $mod+Ctrl+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -180,17 +171,23 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-bindsym $mod+i mode "resize"
+bindsym $mod+Ctrl+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        status_command i3status
-#}
+bar {
+       status_command i3status
+
+        font pango:JetBrains Mono 10
+       
+       colors {
+            focused_workspace #000000 #b20c14 #000000
+       }
+}
 
 # Gaps 
 for_window [class=".*"] border pixel 2
-# gaps inner 5
+gaps inner 5
 
 # Colors
 ## class       border     backgr.   text     indicator   child_border
