@@ -92,9 +92,6 @@ function goimports(timeoutms)
     end
 end
 
--- HTML and JS lsp
-lsp.html.setup {}
-
 -- Python lsp
 lsp.pyright.setup {}
 
@@ -109,5 +106,3 @@ lsp.clangd.setup {
     filetypes = {"c","cpp"},
 }
 
--- Vue LSP 
-lsp.volar.setup {}
