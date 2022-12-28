@@ -12,6 +12,7 @@ cmp.setup({
         { name = "luasnip" , keyword_length = 2 },
     },
     window = {
+        completion = cmp.config.window.bordered(),
         documentation = cmp.config.window.bordered()
     },
     mapping = {

@@ -20,6 +20,13 @@ require("packer").startup(function()
     use "hrsh7th/cmp-path"
     use "hrsh7th/cmp-cmdline"
     use "L3MON4D3/LuaSnip"
+    use {
+        "startup-nvim/startup.nvim",
+        requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+        config = function()
+            require"startup".setup()
+        end
+    }
     use "saadparwaiz1/cmp_luasnip"
 end)
 

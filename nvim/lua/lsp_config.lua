@@ -34,7 +34,7 @@ local on_attach = function(client, bufnr)
 
 
 
-    if client.resolved_capabilities.document_highlight then
+    if client.server_capabilities.document_highlight then
         vim.api.nvim_exec([[
             hi LspReferenceRead cterm=bold ctermbg=DarkMagenta guibg=LightYellow
             hi LspReferenceText cterm=bold ctermbg=DarkMagenta guibg=LightYellow
@@ -92,9 +92,6 @@ function goimports(timeoutms)
     end
 end
 
--- Python lsp
-lsp.pyright.setup {}
-
 -- C LSP setup
 lsp.clangd.setup {
     on_attach = on_attach,
@@ -106,3 +103,4 @@ lsp.clangd.setup {
     filetypes = {"c","cpp"},
 }
 
+lsp.jedi_language_server.setup {}

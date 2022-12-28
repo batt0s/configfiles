@@ -2,7 +2,7 @@
 
 # Options for powermenu
 lock="    Lock"
-logout="    Logout"
+logout="     Logout"
 shutdown="    Shutdown"
 reboot="    Reboot"
 sleep="   Sleep"
@@ -26,7 +26,7 @@ $shutdown" | rofi -dmenu\
 # Do something based on selected option
 if [ "$selected_option" == "$lock" ]
 then
-    /home/$USER/.config/scripts/i3lock-fancy/i3lock-fancy.sh
+    /home/battos/.local/bin/betterlockscreen -l dimblur
 elif [ "$selected_option" == "$logout" ]
 then
     loginctl terminate-user `whoami`
