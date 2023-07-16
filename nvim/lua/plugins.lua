@@ -20,6 +20,8 @@ require("packer").startup(function()
     use "hrsh7th/cmp-path"
     use "hrsh7th/cmp-cmdline"
     use "L3MON4D3/LuaSnip"
+    use "saadparwaiz1/cmp_luasnip"
+    -- Startup
     use {
         "startup-nvim/startup.nvim",
         requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
@@ -27,7 +29,13 @@ require("packer").startup(function()
             require"startup".setup()
         end
     }
-    use "saadparwaiz1/cmp_luasnip"
+    -- Theme
+    use {
+        "loctvl842/monokai-pro.nvim",
+        config = function()
+            require("monokai-pro").setup()
+        end
+}
 end)
 
 -- NvimTree
@@ -38,12 +46,14 @@ require("bufferline").setup {}
 require("lualine").setup {
     options = {
         section_separators = { left = "" , right = "" },
-        theme = "tokyonight"
+        theme = "monokai-pro"
     }
 }
 -- Colorscheme
+-- monokai-pro
+vim.cmd([[colorscheme monokai-pro]])
 -- tokyonight
-vim.cmd("colorscheme tokyonight")
+-- vim.cmd("colorscheme tokyonight")
 -- tokyodark
 -- vim.cmd("colorscheme tokyodark")
 -- onedark darker 

@@ -3,6 +3,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # Autostart
+exec xset r rate 300 50
 # exec_always --no-startup-id $HOME/.screenlayout/dsbp.sh
 exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh

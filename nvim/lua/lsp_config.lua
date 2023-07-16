@@ -104,3 +104,5 @@ lsp.clangd.setup {
 }
 
 lsp.jedi_language_server.setup {}
+
+lsp.sumneko_lua.setup {}
