@@ -103,6 +103,7 @@ lsp.clangd.setup {
     filetypes = {"c","cpp"},
 }
 
-lsp.jedi_language_server.setup {}
+lsp.pylsp.setup {
+    on_attach=on_attach,
+}
 
-lsp.sumneko_lua.setup {}
