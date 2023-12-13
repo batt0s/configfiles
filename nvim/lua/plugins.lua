@@ -1,11 +1,6 @@
 -- Plugins
 require("packer").startup(function() 
     use "wbthomason/packer.nvim"
-    use "neovim/nvim-lspconfig"
-    use "williamboman/nvim-lsp-installer"
-    use "navarasu/onedark.nvim"
-    use "tiagovla/tokyodark.nvim"
-    use "folke/tokyonight.nvim"
     use "kyazdani42/nvim-web-devicons"
     use "kyazdani42/nvim-tree.lua"
     use "nvim-lua/plenary.nvim"
@@ -13,7 +8,9 @@ require("packer").startup(function()
     use "akinsho/bufferline.nvim"
     use "nvim-lualine/lualine.nvim"
     use "nvim-treesitter/nvim-treesitter"
-    -- Autocompletion
+    -- Autocompletion and LSP
+    use "neovim/nvim-lspconfig"
+    use "williamboman/nvim-lsp-installer"
     use "hrsh7th/nvim-cmp"
     use "hrsh7th/cmp-nvim-lsp"
     use "hrsh7th/cmp-buffer"
@@ -29,13 +26,16 @@ require("packer").startup(function()
             require"startup".setup()
         end
     }
-    -- Theme
+    -- Themes
     use {
         "loctvl842/monokai-pro.nvim",
         config = function()
             require("monokai-pro").setup()
         end
-}
+    }
+    use "navarasu/onedark.nvim"
+    use "tiagovla/tokyodark.nvim"
+    use "folke/tokyonight.nvim"
 end)
 
 -- NvimTree
